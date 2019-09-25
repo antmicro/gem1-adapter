@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L zglue-dragon:zGlue-Dragon U?
+L zglue-dragon:zGlue-Dragon U1
 U 1 1 5D8CB9E8
-P 4650 4450
-F 0 "U?" H 4725 6865 50  0000 C CNN
-F 1 "zGlue-Dragon" H 4725 6774 50  0000 C CNN
-F 2 "" H 4650 4450 50  0001 C CNN
-F 3 "" H 4650 4450 50  0001 C CNN
-	1    4650 4450
+P 3750 3750
+F 0 "U1" H 3825 6165 50  0000 C CNN
+F 1 "zGlue-Dragon" H 3825 6074 50  0000 C CNN
+F 2 "lib:Z-Glue_LGA-96" H 3750 3750 50  0001 C CNN
+F 3 "" H 3750 3750 50  0001 C CNN
+	1    3750 3750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
