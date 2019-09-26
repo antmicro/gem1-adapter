@@ -17,45 +17,49 @@ $EndDescr
 $Comp
 L zglue-dragon:zGlue-Dragon U1
 U 1 1 5D8CB9E8
-P 3400 3550
-F 0 "U1" H 3475 5965 50  0000 C CNN
-F 1 "zGlue-Dragon" H 3475 5874 50  0000 C CNN
-F 2 "lib:Z-Glue_LGA-96" H 3400 3550 50  0001 C CNN
-F 3 "" H 3400 3550 50  0001 C CNN
-	1    3400 3550
+P 3400 3350
+F 0 "U1" H 3475 5765 50  0000 C CNN
+F 1 "zGlue-Dragon" H 3475 5674 50  0000 C CNN
+F 2 "lib:Z-Glue_LGA-96" H 3400 3350 50  0001 C CNN
+F 3 "" H 3400 3350 50  0001 C CNN
+	1    3400 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 6700 2400 6700
+	2550 6500 2400 6500
 Wire Wire Line
-	2400 6700 2400 6800
+	2400 6500 2400 6600
 Wire Wire Line
-	2550 6800 2400 6800
-Connection ~ 2400 6800
+	2550 6600 2400 6600
+Connection ~ 2400 6600
 Wire Wire Line
-	2400 6800 2400 6950
+	2400 6600 2400 6750
+Wire Wire Line
+	4400 2950 5000 2950
+Wire Wire Line
+	4400 3050 5000 3050
 Wire Wire Line
 	4400 3150 5000 3150
 Wire Wire Line
 	4400 3250 5000 3250
-Wire Wire Line
-	4400 3350 5000 3350
-Wire Wire Line
-	4400 3450 5000 3450
-Text Label 4550 3150 0    50   ~ 0
+Text Label 4550 2950 0    50   ~ 0
 I2C_0_SCL
-Text Label 4550 3250 0    50   ~ 0
+Text Label 4550 3050 0    50   ~ 0
 I2C_0_SDA
-Text Label 4550 3350 0    50   ~ 0
+Text Label 4550 3150 0    50   ~ 0
 I2C_1_SCL
-Text Label 4550 3450 0    50   ~ 0
+Text Label 4550 3250 0    50   ~ 0
 I2C_1_SDA
 Wire Wire Line
-	4400 1400 5350 1400
-Text Label 4550 1400 0    50   ~ 0
+	4400 1200 5350 1200
+Text Label 4550 1200 0    50   ~ 0
 CSI_CLK_OUT_P
 Wire Wire Line
-	4400 1500 5350 1500
+	4400 1300 5350 1300
+Wire Wire Line
+	4400 1450 5350 1450
+Wire Wire Line
+	4400 1550 5350 1550
 Wire Wire Line
 	4400 1650 5350 1650
 Wire Wire Line
@@ -68,97 +72,71 @@ Wire Wire Line
 	4400 2050 5350 2050
 Wire Wire Line
 	4400 2150 5350 2150
-Wire Wire Line
-	4400 2250 5350 2250
-Wire Wire Line
-	4400 2350 5350 2350
-Text Label 4550 1500 0    50   ~ 0
+Text Label 4550 1300 0    50   ~ 0
 CSI_CLK_OUT_N
-Text Label 4550 1650 0    50   ~ 0
+Text Label 4550 1450 0    50   ~ 0
 CSI_D1_OUT_P
-Text Label 4550 1750 0    50   ~ 0
+Text Label 4550 1550 0    50   ~ 0
 CSI_D1_OUT_N
-Text Label 4550 1850 0    50   ~ 0
+Text Label 4550 1650 0    50   ~ 0
 CSI_D2_OUT_P
-Text Label 4550 1950 0    50   ~ 0
+Text Label 4550 1750 0    50   ~ 0
 CSI_D2_OUT_N
-Text Label 4550 2050 0    50   ~ 0
+Text Label 4550 1850 0    50   ~ 0
 CSI_D3_OUT_P
-Text Label 4550 2150 0    50   ~ 0
+Text Label 4550 1950 0    50   ~ 0
 CSI_D3_OUT_N
-Text Label 4550 2250 0    50   ~ 0
+Text Label 4550 2050 0    50   ~ 0
 CSI_D4_OUT_P
-Text Label 4550 2350 0    50   ~ 0
+Text Label 4550 2150 0    50   ~ 0
 CSI_D4_OUT_N
-Wire Wire Line
-	2550 4200 1950 4200
-Text Label 1950 4200 0    50   ~ 0
-VUSB
-Wire Wire Line
-	2550 3600 1950 3600
-Wire Wire Line
-	2550 3700 1950 3700
-Text Label 1950 3600 0    50   ~ 0
-1V8_SYS
-Text Label 1950 3700 0    50   ~ 0
-3V3_SYS
-Wire Wire Line
-	2550 3250 1950 3250
-Text Label 1950 3250 0    50   ~ 0
-PWR_BTN
-Text Label 1950 4750 0    50   ~ 0
-3V3
-Wire Wire Line
-	2550 4750 1950 4750
-Wire Wire Line
-	2550 4300 1950 4300
-Text Label 1950 4300 0    50   ~ 0
-3V3_SYS
-Wire Wire Line
-	2550 4450 1950 4450
-Wire Wire Line
-	2550 4550 1950 4550
-Wire Wire Line
-	2550 4650 1950 4650
 Wire Wire Line
 	2550 4000 1950 4000
 Text Label 1950 4000 0    50   ~ 0
 VUSB
 Wire Wire Line
-	2550 5350 1950 5350
-Text Label 1950 5350 0    50   ~ 0
+	2550 3400 1950 3400
+Wire Wire Line
+	2550 3500 1950 3500
+Text Label 1950 3400 0    50   ~ 0
+1V8_SYS
+Text Label 1950 3500 0    50   ~ 0
 3V3_SYS
-Text Label 1950 4450 0    50   ~ 0
-1V8
+Wire Wire Line
+	2550 3050 1950 3050
+Text Label 1950 3050 0    50   ~ 0
+PWR_BTN
 Text Label 1950 4550 0    50   ~ 0
+3V3
+Wire Wire Line
+	2550 4550 1950 4550
+Wire Wire Line
+	2550 4100 1950 4100
+Text Label 1950 4100 0    50   ~ 0
+3V3_SYS
+Wire Wire Line
+	2550 4250 1950 4250
+Wire Wire Line
+	2550 4350 1950 4350
+Wire Wire Line
+	2550 4450 1950 4450
+Wire Wire Line
+	2550 3800 1950 3800
+Text Label 1950 3800 0    50   ~ 0
+VUSB
+Wire Wire Line
+	2550 5150 1950 5150
+Text Label 1950 5150 0    50   ~ 0
+3V3_SYS
+Text Label 1950 4250 0    50   ~ 0
+1V8
+Text Label 1950 4350 0    50   ~ 0
 1V2
-Text Label 1950 4650 0    50   ~ 0
+Text Label 1950 4450 0    50   ~ 0
 2V5
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D8CA5C3
-P 1850 5200
-F 0 "TP?" V 1850 5100 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 5100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5400 60  0001 L CNN
-F 3 "" H 2050 5500 60  0001 L CNN
-	1    1850 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP?
-U 1 1 5D8CA6F0
-P 1850 4900
-F 0 "TP?" V 1850 4800 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 4800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5100 60  0001 L CNN
-F 3 "" H 2050 5200 60  0001 L CNN
-	1    1850 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP?
-U 1 1 5D8CA73B
 P 1850 5000
 F 0 "TP?" V 1850 4900 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 4900 50  0001 C CNN
@@ -169,58 +147,76 @@ F 3 "" H 2050 5300 60  0001 L CNN
 $EndComp
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
-U 1 1 5D8CA753
-P 1850 3150
-F 0 "TP?" V 1850 3050 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 3050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3350 60  0001 L CNN
-F 3 "" H 2050 3450 60  0001 L CNN
-	1    1850 3150
+U 1 1 5D8CA6F0
+P 1850 4700
+F 0 "TP?" V 1850 4600 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 4600 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 4900 60  0001 L CNN
+F 3 "" H 2050 5000 60  0001 L CNN
+	1    1850 4700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2550 3050 1950 3050
-Wire Wire Line
-	2550 2950 1950 2950
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5D8CA73B
+P 1850 4800
+F 0 "TP?" V 1850 4700 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 4700 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5000 60  0001 L CNN
+F 3 "" H 2050 5100 60  0001 L CNN
+	1    1850 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5D8CA753
+P 1850 2950
+F 0 "TP?" V 1850 2850 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 2850 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3150 60  0001 L CNN
+F 3 "" H 2050 3250 60  0001 L CNN
+	1    1850 2950
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	2550 2850 1950 2850
 Wire Wire Line
 	2550 2750 1950 2750
-Text Label 1950 2750 0    50   ~ 0
-TDI
-Text Label 1950 2850 0    50   ~ 0
-TDO
-Text Label 1950 2950 0    50   ~ 0
-TMS
-Text Label 1950 3050 0    50   ~ 0
-TCK
+Wire Wire Line
+	2550 2650 1950 2650
 Wire Wire Line
 	2550 2550 1950 2550
 Text Label 1950 2550 0    50   ~ 0
+TDI
+Text Label 1950 2650 0    50   ~ 0
+TDO
+Text Label 1950 2750 0    50   ~ 0
+TMS
+Text Label 1950 2850 0    50   ~ 0
+TCK
+Wire Wire Line
+	2550 2350 1950 2350
+Text Label 1950 2350 0    50   ~ 0
 CSI_OE
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D8CFCA4
-P 1850 2650
-F 0 "TP?" V 1850 2550 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 2550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 2850 60  0001 L CNN
-F 3 "" H 2050 2950 60  0001 L CNN
-	1    1850 2650
+P 1850 2450
+F 0 "TP?" V 1850 2350 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 2350 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 2650 60  0001 L CNN
+F 3 "" H 2050 2750 60  0001 L CNN
+	1    1850 2450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1950 3150 2550 3150
-Text Label 1950 3150 0    50   ~ 0
+	1950 2950 2550 2950
+Text Label 1950 2950 0    50   ~ 0
 ZIP_EN_L
 Wire Wire Line
-	1950 2650 2550 2650
-Text Label 1950 2450 0    50   ~ 0
+	1950 2450 2550 2450
+Text Label 1950 2250 0    50   ~ 0
 CSI_INT
-Wire Wire Line
-	2550 2450 1950 2450
-Wire Wire Line
-	2550 2350 1950 2350
 Wire Wire Line
 	2550 2250 1950 2250
 Wire Wire Line
@@ -236,17 +232,25 @@ Wire Wire Line
 Wire Wire Line
 	2550 1650 1950 1650
 Wire Wire Line
-	2550 1500 1950 1500
+	2550 1550 1950 1550
 Wire Wire Line
-	2550 1400 1950 1400
-Text Label 1950 1400 0    50   ~ 0
+	2550 1450 1950 1450
+Wire Wire Line
+	2550 1300 1950 1300
+Wire Wire Line
+	2550 1200 1950 1200
+Text Label 1950 1200 0    50   ~ 0
 CSI_CLK_IN_P
-Text Label 1950 1500 0    50   ~ 0
+Text Label 1950 1300 0    50   ~ 0
 CSI_CLK_IN_N
+Text Label 1950 1450 0    50   ~ 0
+CSI_D1_IN_P
+Text Label 1950 1550 0    50   ~ 0
+CSI_D1_IN_N
 Text Label 1950 1650 0    50   ~ 0
 CSI_D1_IN_P
 Text Label 1950 1750 0    50   ~ 0
-CSI_D1_IN_N
+CSI_D1_IN_P
 Text Label 1950 1850 0    50   ~ 0
 CSI_D1_IN_P
 Text Label 1950 1950 0    50   ~ 0
@@ -255,10 +259,10 @@ Text Label 1950 2050 0    50   ~ 0
 CSI_D1_IN_P
 Text Label 1950 2150 0    50   ~ 0
 CSI_D1_IN_P
-Text Label 1950 2250 0    50   ~ 0
-CSI_D1_IN_P
-Text Label 1950 2350 0    50   ~ 0
-CSI_D1_IN_P
+Wire Wire Line
+	4400 2300 5350 2300
+Wire Wire Line
+	4400 2400 5350 2400
 Wire Wire Line
 	4400 2500 5350 2500
 Wire Wire Line
@@ -267,38 +271,68 @@ Wire Wire Line
 	4400 2700 5350 2700
 Wire Wire Line
 	4400 2800 5350 2800
-Wire Wire Line
-	4400 2900 5350 2900
-Wire Wire Line
-	4400 3000 5350 3000
-Text Label 4550 2500 0    50   ~ 0
+Text Label 4550 2300 0    50   ~ 0
 CSI_D1_FP_P
-Text Label 4550 2600 0    50   ~ 0
+Text Label 4550 2400 0    50   ~ 0
 CSI_D1_FP_N
-Text Label 4550 2700 0    50   ~ 0
+Text Label 4550 2500 0    50   ~ 0
 CSI_D2_FP_P
-Text Label 4550 2800 0    50   ~ 0
+Text Label 4550 2600 0    50   ~ 0
 CSI_D2_FP_N
-Text Label 4550 2900 0    50   ~ 0
+Text Label 4550 2700 0    50   ~ 0
 CSI_CLK_FP_P
-Text Label 4550 3000 0    50   ~ 0
+Text Label 4550 2800 0    50   ~ 0
 CSI_CLK_FP_N
-Text Notes 1400 7600 0    50   ~ 0
+Text Notes 5900 6000 0    50   ~ 0
 Place close to zGlue pads
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D8F0339
-P 1850 2450
-F 0 "TP?" V 1850 2350 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 2350 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 2650 60  0001 L CNN
-F 3 "" H 2050 2750 60  0001 L CNN
-	1    1850 2450
+P 1850 2250
+F 0 "TP?" V 1850 2150 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 2150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 2450 60  0001 L CNN
+F 3 "" H 2050 2550 60  0001 L CNN
+	1    1850 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D8F3A5B
+P 5100 3400
+F 0 "TP?" V 5100 3300 50  0000 C CNN
+F 1 "TP_SMD1MM" H 5100 3300 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 3600 60  0001 L CNN
+F 3 "" H 5300 3700 60  0001 L CNN
+	1    5100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 3400 5000 3400
+Wire Wire Line
+	4400 3500 5000 3500
+Wire Wire Line
+	4400 3600 5000 3600
+Text Label 4550 3400 0    50   ~ 0
+LED1_ISINK
+Text Label 4550 3500 0    50   ~ 0
+LED2_ISINK
+Text Label 4550 3600 0    50   ~ 0
+LED3_ISINK
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5D8F8F8D
+P 5100 3500
+F 0 "TP?" V 5100 3400 50  0000 C CNN
+F 1 "TP_SMD1MM" H 5100 3400 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 3700 60  0001 L CNN
+F 3 "" H 5300 3800 60  0001 L CNN
+	1    5100 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5D8F8FB7
 P 5100 3600
 F 0 "TP?" V 5100 3500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5100 3500 50  0001 C CNN
@@ -308,51 +342,21 @@ F 3 "" H 5300 3900 60  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4400 3600 5000 3600
+	4400 3750 5000 3750
 Wire Wire Line
-	4400 3700 5000 3700
-Wire Wire Line
-	4400 3800 5000 3800
-Text Label 4550 3600 0    50   ~ 0
-LED1_ISINK
-Text Label 4550 3700 0    50   ~ 0
-LED2_ISINK
-Text Label 4550 3800 0    50   ~ 0
-LED3_ISINK
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP?
-U 1 1 5D8F8F8D
-P 5100 3700
-F 0 "TP?" V 5100 3600 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5100 3600 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 3900 60  0001 L CNN
-F 3 "" H 5300 4000 60  0001 L CNN
-	1    5100 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP?
-U 1 1 5D8F8FB7
-P 5100 3800
-F 0 "TP?" V 5100 3700 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5100 3700 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 4000 60  0001 L CNN
-F 3 "" H 5300 4100 60  0001 L CNN
-	1    5100 3800
-	0    -1   -1   0   
-$EndComp
+	4400 3850 5000 3850
 Wire Wire Line
 	4400 3950 5000 3950
-Wire Wire Line
-	4400 4050 5000 4050
-Wire Wire Line
-	4400 4150 5000 4150
-Text Label 4550 3950 0    50   ~ 0
+Text Label 4550 3750 0    50   ~ 0
 PROC_OUT_0
-Text Label 4550 4050 0    50   ~ 0
+Text Label 4550 3850 0    50   ~ 0
 PROC_OUT_1
-Text Label 4550 4150 0    50   ~ 0
+Text Label 4550 3950 0    50   ~ 0
 PROC_OUT_2
+Wire Wire Line
+	4400 4100 5000 4100
+Wire Wire Line
+	4400 4200 5000 4200
 Wire Wire Line
 	4400 4300 5000 4300
 Wire Wire Line
@@ -360,188 +364,188 @@ Wire Wire Line
 Wire Wire Line
 	4400 4500 5000 4500
 Wire Wire Line
-	4400 4600 5000 4600
+	4400 4650 5000 4650
 Wire Wire Line
-	4400 4700 5000 4700
+	4400 4750 5000 4750
 Wire Wire Line
 	4400 4850 5000 4850
 Wire Wire Line
 	4400 4950 5000 4950
 Wire Wire Line
 	4400 5050 5000 5050
-Wire Wire Line
-	4400 5150 5000 5150
-Wire Wire Line
-	4400 5250 5000 5250
-Text Label 4550 4300 0    50   ~ 0
+Text Label 4550 4100 0    50   ~ 0
 PROC_RST
-Text Label 4550 4400 0    50   ~ 0
+Text Label 4550 4200 0    50   ~ 0
 PROC_SI
-Text Label 4550 4500 0    50   ~ 0
+Text Label 4550 4300 0    50   ~ 0
 PROC_SO
-Text Label 4550 4600 0    50   ~ 0
+Text Label 4550 4400 0    50   ~ 0
 PROC_SCK
-Text Label 4550 4700 0    50   ~ 0
+Text Label 4550 4500 0    50   ~ 0
 PROC_SS
-Text Label 4550 4850 0    50   ~ 0
+Text Label 4550 4650 0    50   ~ 0
 CTRL_RST
-Text Label 4550 4950 0    50   ~ 0
+Text Label 4550 4750 0    50   ~ 0
 CTRL_SI
-Text Label 4550 5050 0    50   ~ 0
+Text Label 4550 4850 0    50   ~ 0
 CTRL_SO
-Text Label 4550 5150 0    50   ~ 0
+Text Label 4550 4950 0    50   ~ 0
 CTRL_SCK
-Text Label 4550 5250 0    50   ~ 0
+Text Label 4550 5050 0    50   ~ 0
 CTRL_SS
+Wire Wire Line
+	4400 5300 5000 5300
+Wire Wire Line
+	4400 5400 5000 5400
 Wire Wire Line
 	4400 5500 5000 5500
 Wire Wire Line
-	4400 5600 5000 5600
+	2550 4700 1950 4700
 Wire Wire Line
-	4400 5700 5000 5700
+	2550 4800 1950 4800
+Text Label 1950 4700 0    50   ~ 0
+DMUX
+Text Label 1950 4800 0    50   ~ 0
+AMUX
 Wire Wire Line
 	2550 4900 1950 4900
 Wire Wire Line
 	2550 5000 1950 5000
-Text Label 1950 4900 0    50   ~ 0
-DMUX
-Text Label 1950 5000 0    50   ~ 0
-AMUX
-Wire Wire Line
-	2550 5100 1950 5100
-Wire Wire Line
-	2550 5200 1950 5200
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D9289B9
-P 1850 5100
-F 0 "TP?" V 1850 5000 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 5000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5300 60  0001 L CNN
-F 3 "" H 2050 5400 60  0001 L CNN
-	1    1850 5100
+P 1850 4900
+F 0 "TP?" V 1850 4800 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 4800 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5100 60  0001 L CNN
+F 3 "" H 2050 5200 60  0001 L CNN
+	1    1850 4900
 	0    1    1    0   
 $EndComp
-Text Label 1950 5100 0    50   ~ 0
+Text Label 1950 4900 0    50   ~ 0
 EXTCLK_EN
-Text Label 1950 5200 0    50   ~ 0
+Text Label 1950 5000 0    50   ~ 0
 EXT_CLK
 $Comp
 L power:GND #PWR?
 U 1 1 5D928CFA
-P 1850 3500
-F 0 "#PWR?" H 1850 3250 50  0001 C CNN
-F 1 "GND" V 1855 3372 50  0000 R CNN
-F 2 "" H 1850 3500 50  0001 C CNN
-F 3 "" H 1850 3500 50  0001 C CNN
-	1    1850 3500
+P 1850 3300
+F 0 "#PWR?" H 1850 3050 50  0001 C CNN
+F 1 "GND" V 1855 3172 50  0000 R CNN
+F 2 "" H 1850 3300 50  0001 C CNN
+F 3 "" H 1850 3300 50  0001 C CNN
+	1    1850 3300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 3400 1950 3400
-Text Label 1950 3400 0    50   ~ 0
+	2550 3200 1950 3200
+Text Label 1950 3200 0    50   ~ 0
 PC_RDY
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D92BE5C
-P 1850 3400
-F 0 "TP?" V 1850 3300 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 3300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3600 60  0001 L CNN
-F 3 "" H 2050 3700 60  0001 L CNN
-	1    1850 3400
+P 1850 3200
+F 0 "TP?" V 1850 3100 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 3100 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3400 60  0001 L CNN
+F 3 "" H 2050 3500 60  0001 L CNN
+	1    1850 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 3500 2550 3500
+	1850 3300 2550 3300
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D92F140
-P 5050 6450
-F 0 "TP?" V 5050 6350 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5050 6350 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5250 6650 60  0001 L CNN
-F 3 "" H 5250 6750 60  0001 L CNN
-	1    5050 6450
+P 5050 6250
+F 0 "TP?" V 5050 6150 50  0000 C CNN
+F 1 "TP_SMD1MM" H 5050 6150 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5250 6450 60  0001 L CNN
+F 3 "" H 5250 6550 60  0001 L CNN
+	1    5050 6250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4400 6450 4950 6450
+	4400 6250 4950 6250
 Wire Wire Line
-	4400 6350 4950 6350
+	4400 6150 4950 6150
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D935A2A
-P 5050 6350
-F 0 "TP?" V 5050 6250 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5050 6250 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5250 6550 60  0001 L CNN
-F 3 "" H 5250 6650 60  0001 L CNN
-	1    5050 6350
+P 5050 6150
+F 0 "TP?" V 5050 6050 50  0000 C CNN
+F 1 "TP_SMD1MM" H 5050 6050 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5250 6350 60  0001 L CNN
+F 3 "" H 5250 6450 60  0001 L CNN
+	1    5050 6150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4400 5850 5000 5850
-Text Label 4550 5850 0    50   ~ 0
+	4400 5650 5000 5650
+Text Label 4550 5650 0    50   ~ 0
 SYS_CLK
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D9390AB
-P 5100 5850
-F 0 "TP?" V 5100 5750 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5100 5750 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 6050 60  0001 L CNN
-F 3 "" H 5300 6150 60  0001 L CNN
-	1    5100 5850
+P 5100 5650
+F 0 "TP?" V 5100 5550 50  0000 C CNN
+F 1 "TP_SMD1MM" H 5100 5550 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 5850 60  0001 L CNN
+F 3 "" H 5300 5950 60  0001 L CNN
+	1    5100 5650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
+	4400 5800 5000 5800
+Wire Wire Line
+	4400 5900 5000 5900
+Wire Wire Line
 	4400 6000 5000 6000
-Wire Wire Line
-	4400 6100 5000 6100
-Wire Wire Line
-	4400 6200 5000 6200
-Text Label 4550 6000 0    50   ~ 0
+Text Label 4550 5800 0    50   ~ 0
 USB_DET
-Text Label 4550 5600 0    50   ~ 0
+Text Label 4550 5400 0    50   ~ 0
 DBG_RX
-Text Label 4550 5500 0    50   ~ 0
+Text Label 4550 5300 0    50   ~ 0
 DBG_TX
-Text Label 4550 5700 0    50   ~ 0
+Text Label 4550 5500 0    50   ~ 0
 CTRL_OUT
 Wire Wire Line
-	4400 5400 5000 5400
-Text Label 4550 5400 0    50   ~ 0
+	4400 5200 5000 5200
+Text Label 4550 5200 0    50   ~ 0
 DONE
-Text Label 4550 6200 0    50   ~ 0
+Text Label 4550 6000 0    50   ~ 0
 USB_D_N
-Text Label 4550 6100 0    50   ~ 0
+Text Label 4550 5900 0    50   ~ 0
 USB_D_P
-Text Label 4550 6350 0    50   ~ 0
+Text Label 4550 6150 0    50   ~ 0
 ULPM_WAKE
-Text Label 4550 6450 0    50   ~ 0
+Text Label 4550 6250 0    50   ~ 0
 VX
 $Comp
 L power:GND #PWR?
 U 1 1 5D947939
-P 2400 6950
-F 0 "#PWR?" H 2400 6700 50  0001 C CNN
-F 1 "GND" H 2405 6777 50  0000 C CNN
-F 2 "" H 2400 6950 50  0001 C CNN
-F 3 "" H 2400 6950 50  0001 C CNN
-	1    2400 6950
+P 2400 6750
+F 0 "#PWR?" H 2400 6500 50  0001 C CNN
+F 1 "GND" H 2405 6577 50  0000 C CNN
+F 2 "" H 2400 6750 50  0001 C CNN
+F 3 "" H 2400 6750 50  0001 C CNN
+	1    2400 6750
 	1    0    0    -1  
 $EndComp
-Text Label 1950 5550 0    50   ~ 0
+Text Label 1950 5350 0    50   ~ 0
 VPLL_A
-Text Label 1950 5750 0    50   ~ 0
+Text Label 1950 5550 0    50   ~ 0
 VPLL_B
-Text Label 1950 5850 0    50   ~ 0
-2V5_SYS
 Text Label 1950 5650 0    50   ~ 0
-1V2_SYS_B
+2V5_SYS
 Text Label 1950 5450 0    50   ~ 0
+1V2_SYS_B
+Text Label 1950 5250 0    50   ~ 0
 1V2_SYS_A
+Wire Wire Line
+	2550 5250 1950 5250
+Wire Wire Line
+	2550 5350 1950 5350
 Wire Wire Line
 	2550 5450 1950 5450
 Wire Wire Line
@@ -549,18 +553,36 @@ Wire Wire Line
 Wire Wire Line
 	2550 5650 1950 5650
 Wire Wire Line
-	2550 5750 1950 5750
-Wire Wire Line
-	2550 5850 1950 5850
+	2550 5800 1950 5800
 Wire Wire Line
 	2550 6000 1950 6000
 Wire Wire Line
-	2550 6200 1950 6200
-Wire Wire Line
-	2550 6100 1950 6100
+	2550 5900 1950 5900
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP?
 U 1 1 5D971A5D
+P 1850 5800
+F 0 "TP?" V 1850 5700 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 5700 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 6000 60  0001 L CNN
+F 3 "" H 2050 6100 60  0001 L CNN
+	1    1850 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5D971AC3
+P 1850 5900
+F 0 "TP?" V 1850 5800 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 5800 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 6100 60  0001 L CNN
+F 3 "" H 2050 6200 60  0001 L CNN
+	1    1850 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 5D971AF5
 P 1850 6000
 F 0 "TP?" V 1850 5900 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 5900 50  0001 C CNN
@@ -570,118 +592,658 @@ F 3 "" H 2050 6300 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
-U 1 1 5D971AC3
-P 1850 6100
-F 0 "TP?" V 1850 6000 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 6000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 6300 60  0001 L CNN
-F 3 "" H 2050 6400 60  0001 L CNN
-	1    1850 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP?
-U 1 1 5D971AF5
-P 1850 6200
-F 0 "TP?" V 1850 6100 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 6100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 6400 60  0001 L CNN
-F 3 "" H 2050 6500 60  0001 L CNN
-	1    1850 6200
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5D971BCB
-P 1850 4100
-F 0 "#PWR?" H 1850 3850 50  0001 C CNN
-F 1 "GND" V 1855 3972 50  0000 R CNN
-F 2 "" H 1850 4100 50  0001 C CNN
-F 3 "" H 1850 4100 50  0001 C CNN
-	1    1850 4100
+P 1850 3900
+F 0 "#PWR?" H 1850 3650 50  0001 C CNN
+F 1 "GND" V 1855 3772 50  0000 R CNN
+F 2 "" H 1850 3900 50  0001 C CNN
+F 3 "" H 1850 3900 50  0001 C CNN
+	1    1850 3900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 4100 2550 4100
+	1850 3900 2550 3900
 Wire Wire Line
-	2550 3800 1950 3800
+	2550 3600 1950 3600
 Wire Wire Line
-	2550 3900 1950 3900
-Text Label 1950 3800 0    50   ~ 0
+	2550 3700 1950 3700
+Text Label 1950 3600 0    50   ~ 0
 VSENSE
-Text Label 1950 3900 0    50   ~ 0
+Text Label 1950 3700 0    50   ~ 0
 VDDIO_BST
-Text Label 1950 6000 0    50   ~ 0
+Text Label 1950 5800 0    50   ~ 0
 PIO3
-Text Label 1950 6100 0    50   ~ 0
+Text Label 1950 5900 0    50   ~ 0
 PIO2
-Text Label 1950 6200 0    50   ~ 0
+Text Label 1950 6000 0    50   ~ 0
 PIO1
 $Comp
 L antmicroResistors0402:R_100R_0402 R?
 U 1 1 5D984F07
-P 1950 7950
-F 0 "R?" V 1905 8020 60  0000 L CNN
-F 1 "R_100R_0402" H 1950 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2150 8150 60  0001 L CNN
-F 3 "" H 1950 7950 50  0001 C CNN
-F 4 "BOURNS" H 2150 8350 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 2150 8250 60  0001 L CNN "MPN"
-F 6 "100R" V 2003 8020 50  0000 L CNN "Val"
-	1    1950 7950
+P 6450 6350
+F 0 "R?" V 6405 6420 60  0000 L CNN
+F 1 "R_100R_0402" H 6450 6200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 6650 6550 60  0001 L CNN
+F 3 "" H 6450 6350 50  0001 C CNN
+F 4 "BOURNS" H 6650 6750 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 6650 6650 60  0001 L CNN "MPN"
+F 6 "100R" V 6503 6420 50  0000 L CNN "Val"
+	1    6450 6350
 	0    1    1    0   
 $EndComp
-Text Label 1400 7800 0    50   ~ 0
+Text Label 5900 6200 0    50   ~ 0
 CSI_D1_FP_P
-Text Label 1400 8100 0    50   ~ 0
+Text Label 5900 6500 0    50   ~ 0
 CSI_D1_FP_N
-Text Label 2250 7800 0    50   ~ 0
+Text Label 6750 6200 0    50   ~ 0
 CSI_D2_FP_P
-Text Label 2250 8100 0    50   ~ 0
+Text Label 6750 6500 0    50   ~ 0
 CSI_D2_FP_N
-Text Label 3150 7800 0    50   ~ 0
+Text Label 7650 6200 0    50   ~ 0
 CSI_CLK_FP_P
-Text Label 3150 8100 0    50   ~ 0
+Text Label 7650 6500 0    50   ~ 0
 CSI_CLK_FP_N
 Wire Wire Line
-	1950 7800 1400 7800
+	6450 6200 5900 6200
 Wire Wire Line
-	1950 8100 1400 8100
+	6450 6500 5900 6500
 $Comp
 L antmicroResistors0402:R_100R_0402 R?
 U 1 1 5D998CAA
-P 2850 7950
-F 0 "R?" V 2805 8020 60  0000 L CNN
-F 1 "R_100R_0402" H 2850 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3050 8150 60  0001 L CNN
-F 3 "" H 2850 7950 50  0001 C CNN
-F 4 "BOURNS" H 3050 8350 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 3050 8250 60  0001 L CNN "MPN"
-F 6 "100R" V 2903 8020 50  0000 L CNN "Val"
-	1    2850 7950
+P 7350 6350
+F 0 "R?" V 7305 6420 60  0000 L CNN
+F 1 "R_100R_0402" H 7350 6200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7550 6550 60  0001 L CNN
+F 3 "" H 7350 6350 50  0001 C CNN
+F 4 "BOURNS" H 7550 6750 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 7550 6650 60  0001 L CNN "MPN"
+F 6 "100R" V 7403 6420 50  0000 L CNN "Val"
+	1    7350 6350
 	0    1    1    0   
 $EndComp
 $Comp
 L antmicroResistors0402:R_100R_0402 R?
 U 1 1 5D998D12
-P 3750 7950
-F 0 "R?" V 3705 8020 60  0000 L CNN
-F 1 "R_100R_0402" H 3750 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3950 8150 60  0001 L CNN
-F 3 "" H 3750 7950 50  0001 C CNN
-F 4 "BOURNS" H 3950 8350 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 3950 8250 60  0001 L CNN "MPN"
-F 6 "100R" V 3803 8020 50  0000 L CNN "Val"
-	1    3750 7950
+P 8250 6350
+F 0 "R?" V 8205 6420 60  0000 L CNN
+F 1 "R_100R_0402" H 8250 6200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8450 6550 60  0001 L CNN
+F 3 "" H 8250 6350 50  0001 C CNN
+F 4 "BOURNS" H 8450 6750 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 8450 6650 60  0001 L CNN "MPN"
+F 6 "100R" V 8303 6420 50  0000 L CNN "Val"
+	1    8250 6350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2850 8100 2250 8100
+	7350 6500 6750 6500
 Wire Wire Line
-	2850 7800 2250 7800
+	7350 6200 6750 6200
 Wire Wire Line
-	3750 7800 3150 7800
+	8250 6200 7650 6200
 Wire Wire Line
-	3750 8100 3150 8100
+	8250 6500 7650 6500
+Text Label 2750 8050 0    50   ~ 0
+3V3_SYS
+Text Label 1200 8750 0    50   ~ 0
+1V8
+Text Label 1200 10450 0    50   ~ 0
+1V2
+Text Notes 5900 5800 0    79   ~ 16
+MIPI termination
+Text Notes 1550 800  0    79   ~ 16
+Dragon chip
+$Comp
+L antmicroCapacitors0402:C_10u_0402 C?
+U 1 1 5DA0000B
+P 2000 8200
+F 0 "C?" H 2115 8245 60  0000 L CNN
+F 1 "C_10u_0402" H 2000 8050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2200 8400 60  0001 L CNN
+F 3 "" H 2000 8200 50  0001 C CNN
+F 4 "TDK" H 2200 8600 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R0J106M050BC" H 2200 8500 60  0001 L CNN "MPN"
+F 6 "10u" H 2115 8147 50  0000 L CNN "Val"
+	1    2000 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DA00317
+P 2500 8200
+F 0 "C?" H 2615 8245 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 2500 8050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2700 8400 60  0001 L CNN
+F 3 "" H 2500 8200 50  0001 C CNN
+F 4 "Walsin" H 2700 8600 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2700 8500 60  0001 L CNN "MPN"
+F 6 "100n" H 2615 8147 50  0000 L CNN "Val"
+	1    2500 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA0044B
+P 2000 8350
+F 0 "#PWR?" H 2000 8100 50  0001 C CNN
+F 1 "GND" H 2005 8177 50  0000 C CNN
+F 2 "" H 2000 8350 50  0001 C CNN
+F 3 "" H 2000 8350 50  0001 C CNN
+	1    2000 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA004B2
+P 2500 8350
+F 0 "#PWR?" H 2500 8100 50  0001 C CNN
+F 1 "GND" H 2505 8177 50  0000 C CNN
+F 2 "" H 2500 8350 50  0001 C CNN
+F 3 "" H 2500 8350 50  0001 C CNN
+	1    2500 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 5DA005FB
+P 1650 8050
+F 0 "R?" H 1650 8263 60  0000 C CNN
+F 1 "R_0R_0402" H 1650 7900 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1850 8250 60  0001 L CNN
+F 3 "" H 1650 8050 50  0001 C CNN
+F 4 "PANASONIC" H 1850 8450 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1850 8350 60  0001 L CNN "MPN"
+F 6 "0R" H 1650 8165 50  0000 C CNN "Val"
+	1    1650 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 8050 2000 8050
+Connection ~ 2000 8050
+Wire Wire Line
+	2000 8050 2500 8050
+Wire Wire Line
+	2500 8050 3050 8050
+Connection ~ 2500 8050
+Wire Wire Line
+	1500 8050 1200 8050
+Text Label 1200 8050 0    50   ~ 0
+3V3
+Text Notes 1200 7550 0    79   ~ 16
+Voltage filtering
+Text Label 2750 8750 0    50   ~ 0
+1V8_SYS
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DA29CBF
+P 2500 8900
+F 0 "C?" H 2615 8945 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 2500 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2700 9100 60  0001 L CNN
+F 3 "" H 2500 8900 50  0001 C CNN
+F 4 "Walsin" H 2700 9300 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2700 9200 60  0001 L CNN "MPN"
+F 6 "100n" H 2615 8847 50  0000 L CNN "Val"
+	1    2500 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA29CC6
+P 2000 9050
+F 0 "#PWR?" H 2000 8800 50  0001 C CNN
+F 1 "GND" H 2005 8877 50  0000 C CNN
+F 2 "" H 2000 9050 50  0001 C CNN
+F 3 "" H 2000 9050 50  0001 C CNN
+	1    2000 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA29CCC
+P 2500 9050
+F 0 "#PWR?" H 2500 8800 50  0001 C CNN
+F 1 "GND" H 2505 8877 50  0000 C CNN
+F 2 "" H 2500 9050 50  0001 C CNN
+F 3 "" H 2500 9050 50  0001 C CNN
+	1    2500 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 5DA29CD5
+P 1650 8750
+F 0 "R?" H 1650 8963 60  0000 C CNN
+F 1 "R_0R_0402" H 1650 8600 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1850 8950 60  0001 L CNN
+F 3 "" H 1650 8750 50  0001 C CNN
+F 4 "PANASONIC" H 1850 9150 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1850 9050 60  0001 L CNN "MPN"
+F 6 "0R" H 1650 8865 50  0000 C CNN "Val"
+	1    1650 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 8750 3050 8750
+Connection ~ 2500 8750
+Wire Wire Line
+	1500 8750 1200 8750
+Wire Wire Line
+	1800 8750 2000 8750
+$Comp
+L antmicroCapacitors0402:C_2u2_0402 C?
+U 1 1 5DA30683
+P 2000 8900
+F 0 "C?" H 2115 8945 60  0000 L CNN
+F 1 "C_2u2_0402" H 2000 8750 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2200 9100 60  0001 L CNN
+F 3 "" H 2000 8900 50  0001 C CNN
+F 4 "TDK" H 2200 9300 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1A225K050BC" H 2200 9200 60  0001 L CNN "MPN"
+F 6 "2u2" H 2115 8847 50  0000 L CNN "Val"
+	1    2000 8900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 8750
+Wire Wire Line
+	2000 8750 2500 8750
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DA307E8
+P 3350 10650
+F 0 "C?" H 3465 10695 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 3350 10500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3550 10850 60  0001 L CNN
+F 3 "" H 3350 10650 50  0001 C CNN
+F 4 "Walsin" H 3550 11050 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3550 10950 60  0001 L CNN "MPN"
+F 6 "100n" H 3465 10597 50  0000 L CNN "Val"
+	1    3350 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA307EF
+P 2000 10800
+F 0 "#PWR?" H 2000 10550 50  0001 C CNN
+F 1 "GND" H 2005 10627 50  0000 C CNN
+F 2 "" H 2000 10800 50  0001 C CNN
+F 3 "" H 2000 10800 50  0001 C CNN
+	1    2000 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 5DA307FE
+P 1650 10450
+F 0 "R?" H 1650 10663 60  0000 C CNN
+F 1 "R_0R_0402" H 1650 10300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1850 10650 60  0001 L CNN
+F 3 "" H 1650 10450 50  0001 C CNN
+F 4 "PANASONIC" H 1850 10850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1850 10750 60  0001 L CNN "MPN"
+F 6 "0R" H 1650 10565 50  0000 C CNN "Val"
+	1    1650 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 10450 1200 10450
+Wire Wire Line
+	1800 10450 2000 10450
+Connection ~ 2000 10450
+$Comp
+L antmicroCapacitors0402:C_2u2_0402 C?
+U 1 1 5DA3080C
+P 2000 10650
+F 0 "C?" H 2115 10695 60  0000 L CNN
+F 1 "C_2u2_0402" H 2000 10500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2200 10850 60  0001 L CNN
+F 3 "" H 2000 10650 50  0001 C CNN
+F 4 "TDK" H 2200 11050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1A225K050BC" H 2200 10950 60  0001 L CNN "MPN"
+F 6 "2u2" H 2115 10597 50  0000 L CNN "Val"
+	1    2000 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DA37CD2
+P 3750 10650
+F 0 "C?" H 3865 10695 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 3750 10500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 3950 10850 60  0001 L CNN
+F 3 "" H 3750 10650 50  0001 C CNN
+F 4 "Walsin" H 3950 11050 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3950 10950 60  0001 L CNN "MPN"
+F 6 "100n" H 3865 10597 50  0000 L CNN "Val"
+	1    3750 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 5DA37D7F
+P 3050 10250
+F 0 "R?" H 3000 10350 60  0000 C CNN
+F 1 "R_0R_0402" H 3050 10100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3250 10450 60  0001 L CNN
+F 3 "" H 3050 10250 50  0001 C CNN
+F 4 "PANASONIC" H 3250 10650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3250 10550 60  0001 L CNN "MPN"
+F 6 "0R" H 3150 10350 50  0000 C CNN "Val"
+	1    3050 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 5DA37E2F
+P 3050 10450
+F 0 "R?" H 3000 10550 60  0000 C CNN
+F 1 "R_0R_0402" H 3050 10300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3250 10650 60  0001 L CNN
+F 3 "" H 3050 10450 50  0001 C CNN
+F 4 "PANASONIC" H 3250 10850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3250 10750 60  0001 L CNN "MPN"
+F 6 "0R" H 3150 10550 50  0000 C CNN "Val"
+	1    3050 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 10250 2800 10450
+Connection ~ 2800 10450
+Wire Wire Line
+	2800 10450 2900 10450
+Text Label 2300 10450 0    50   ~ 0
+1V2_SYS
+Wire Wire Line
+	3200 10250 3750 10250
+Wire Wire Line
+	3200 10450 3350 10450
+Wire Wire Line
+	2000 10450 2800 10450
+Wire Wire Line
+	2000 10500 2000 10450
+$Comp
+L power:GND #PWR?
+U 1 1 5DA7B022
+P 3350 10800
+F 0 "#PWR?" H 3350 10550 50  0001 C CNN
+F 1 "GND" H 3355 10627 50  0000 C CNN
+F 2 "" H 3350 10800 50  0001 C CNN
+F 3 "" H 3350 10800 50  0001 C CNN
+	1    3350 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA7B06F
+P 3750 10800
+F 0 "#PWR?" H 3750 10550 50  0001 C CNN
+F 1 "GND" H 3755 10627 50  0000 C CNN
+F 2 "" H 3750 10800 50  0001 C CNN
+F 3 "" H 3750 10800 50  0001 C CNN
+	1    3750 10800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 10450
+Wire Wire Line
+	3750 10500 3750 10250
+Connection ~ 3750 10250
+Wire Wire Line
+	3750 10250 4400 10250
+Wire Wire Line
+	3350 10500 3350 10450
+Wire Wire Line
+	3350 10450 4400 10450
+Wire Wire Line
+	2900 10250 2800 10250
+Text Label 4000 10250 0    50   ~ 0
+1V2_SYS_A
+Text Label 4000 10450 0    50   ~ 0
+1V2_SYS_B
+Text Label 4850 10450 0    50   ~ 0
+1V2
+$Comp
+L antmicroResistors0402:R_100R_0402 R?
+U 1 1 5DAD7DDD
+P 5450 10200
+F 0 "R?" H 5400 10300 60  0000 C CNN
+F 1 "R_100R_0402" H 5450 10050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5650 10400 60  0001 L CNN
+F 3 "" H 5450 10200 50  0001 C CNN
+F 4 "BOURNS" H 5650 10600 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 5650 10500 60  0001 L CNN "MPN"
+F 6 "100R" H 5600 10300 50  0000 C CNN "Val"
+	1    5450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_100R_0402 R?
+U 1 1 5DAD7E79
+P 5450 10450
+F 0 "R?" H 5400 10550 60  0000 C CNN
+F 1 "R_100R_0402" H 5450 10300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5650 10650 60  0001 L CNN
+F 3 "" H 5450 10450 50  0001 C CNN
+F 4 "BOURNS" H 5650 10850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 5650 10750 60  0001 L CNN "MPN"
+F 6 "100R" H 5600 10550 50  0000 C CNN "Val"
+	1    5450 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 10450 5200 10450
+Wire Wire Line
+	5200 10200 5200 10450
+Connection ~ 5200 10450
+Wire Wire Line
+	5200 10450 5300 10450
+Wire Wire Line
+	5600 10450 5750 10450
+Wire Wire Line
+	5600 10200 6500 10200
+Wire Wire Line
+	5300 10200 5200 10200
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DB184A0
+P 5750 10700
+F 0 "C?" H 5865 10745 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 5750 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 5950 10900 60  0001 L CNN
+F 3 "" H 5750 10700 50  0001 C CNN
+F 4 "Walsin" H 5950 11100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5950 11000 60  0001 L CNN "MPN"
+F 6 "100n" H 5865 10647 50  0000 L CNN "Val"
+	1    5750 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DB185A4
+P 6500 10700
+F 0 "C?" H 6615 10745 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 6500 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6700 10900 60  0001 L CNN
+F 3 "" H 6500 10700 50  0001 C CNN
+F 4 "Walsin" H 6700 11100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6700 11000 60  0001 L CNN "MPN"
+F 6 "100n" H 6615 10647 50  0000 L CNN "Val"
+	1    6500 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10n_0402 C?
+U 1 1 5DB2894E
+P 6150 10700
+F 0 "C?" H 6265 10745 60  0000 L CNN
+F 1 "C_10n_0402" H 6150 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 6350 10900 60  0001 L CNN
+F 3 "" H 6150 10700 50  0001 C CNN
+F 4 "AVX" H 6350 11100 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 6350 11000 60  0001 L CNN "MPN"
+F 6 "10n" H 6265 10647 50  0000 L CNN "Val"
+	1    6150 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroCapacitors0402:C_10n_0402 C?
+U 1 1 5DB289F4
+P 6900 10700
+F 0 "C?" H 7015 10745 60  0000 L CNN
+F 1 "C_10n_0402" H 6900 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 7100 10900 60  0001 L CNN
+F 3 "" H 6900 10700 50  0001 C CNN
+F 4 "AVX" H 7100 11100 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 7100 11000 60  0001 L CNN "MPN"
+F 6 "10n" H 7015 10647 50  0000 L CNN "Val"
+	1    6900 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB28A9A
+P 5750 10850
+F 0 "#PWR?" H 5750 10600 50  0001 C CNN
+F 1 "GND" H 5755 10677 50  0000 C CNN
+F 2 "" H 5750 10850 50  0001 C CNN
+F 3 "" H 5750 10850 50  0001 C CNN
+	1    5750 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB28AF3
+P 6150 10850
+F 0 "#PWR?" H 6150 10600 50  0001 C CNN
+F 1 "GND" H 6155 10677 50  0000 C CNN
+F 2 "" H 6150 10850 50  0001 C CNN
+F 3 "" H 6150 10850 50  0001 C CNN
+	1    6150 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB28B4C
+P 6500 10850
+F 0 "#PWR?" H 6500 10600 50  0001 C CNN
+F 1 "GND" H 6505 10677 50  0000 C CNN
+F 2 "" H 6500 10850 50  0001 C CNN
+F 3 "" H 6500 10850 50  0001 C CNN
+	1    6500 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB28BA5
+P 6900 10850
+F 0 "#PWR?" H 6900 10600 50  0001 C CNN
+F 1 "GND" H 6905 10677 50  0000 C CNN
+F 2 "" H 6900 10850 50  0001 C CNN
+F 3 "" H 6900 10850 50  0001 C CNN
+	1    6900 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 10450 5750 10550
+Connection ~ 5750 10450
+Wire Wire Line
+	5750 10450 6150 10450
+Wire Wire Line
+	6150 10550 6150 10450
+Connection ~ 6150 10450
+Wire Wire Line
+	6150 10450 7400 10450
+Wire Wire Line
+	6500 10550 6500 10200
+Connection ~ 6500 10200
+Wire Wire Line
+	6500 10200 6900 10200
+Wire Wire Line
+	6900 10550 6900 10200
+Connection ~ 6900 10200
+Wire Wire Line
+	6900 10200 7400 10200
+Text Label 7100 10200 0    50   ~ 0
+VPLL_A
+Text Label 7100 10450 0    50   ~ 0
+VPLL_B
+Text Label 1200 9500 0    50   ~ 0
+2V5
+Text Label 2750 9500 0    50   ~ 0
+2V5_SYS
+$Comp
+L antmicroCapacitors0402:C_100n_0402_6V3 C?
+U 1 1 5DB84A77
+P 2500 9650
+F 0 "C?" H 2615 9695 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 2500 9500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2700 9850 60  0001 L CNN
+F 3 "" H 2500 9650 50  0001 C CNN
+F 4 "Walsin" H 2700 10050 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2700 9950 60  0001 L CNN "MPN"
+F 6 "100n" H 2615 9597 50  0000 L CNN "Val"
+	1    2500 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB84A7E
+P 2000 9800
+F 0 "#PWR?" H 2000 9550 50  0001 C CNN
+F 1 "GND" H 2005 9627 50  0000 C CNN
+F 2 "" H 2000 9800 50  0001 C CNN
+F 3 "" H 2000 9800 50  0001 C CNN
+	1    2000 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB84A84
+P 2500 9800
+F 0 "#PWR?" H 2500 9550 50  0001 C CNN
+F 1 "GND" H 2505 9627 50  0000 C CNN
+F 2 "" H 2500 9800 50  0001 C CNN
+F 3 "" H 2500 9800 50  0001 C CNN
+	1    2500 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 5DB84A8D
+P 1650 9500
+F 0 "R?" H 1650 9713 60  0000 C CNN
+F 1 "R_0R_0402" H 1650 9350 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 1850 9700 60  0001 L CNN
+F 3 "" H 1650 9500 50  0001 C CNN
+F 4 "PANASONIC" H 1850 9900 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 1850 9800 60  0001 L CNN "MPN"
+F 6 "0R" H 1650 9615 50  0000 C CNN "Val"
+	1    1650 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 9500 3050 9500
+Connection ~ 2500 9500
+Wire Wire Line
+	1500 9500 1200 9500
+Wire Wire Line
+	1800 9500 2000 9500
+$Comp
+L antmicroCapacitors0402:C_2u2_0402 C?
+U 1 1 5DB84A9B
+P 2000 9650
+F 0 "C?" H 2115 9695 60  0000 L CNN
+F 1 "C_2u2_0402" H 2000 9500 60  0001 C CNN
+F 2 "antmicro-footprints:0402-cap" H 2200 9850 60  0001 L CNN
+F 3 "" H 2000 9650 50  0001 C CNN
+F 4 "TDK" H 2200 10050 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1A225K050BC" H 2200 9950 60  0001 L CNN "MPN"
+F 6 "2u2" H 2115 9597 50  0000 L CNN "Val"
+	1    2000 9650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 9500
+Wire Wire Line
+	2000 9500 2500 9500
 $EndSCHEMATC
