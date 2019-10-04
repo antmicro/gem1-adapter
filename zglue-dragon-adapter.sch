@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:zglue-dragon-baseboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1409,7 +1408,7 @@ CSI_D1_IN_N
 Text Label 7900 2250 0    50   ~ 0
 CSI_D2_IN_P
 Text Label 7900 2350 0    50   ~ 0
-CSI_D2_IN_P
+CSI_D2_IN_N
 Text Label 7900 2550 0    50   ~ 0
 CSI_D3_IN_P
 Text Label 7900 2650 0    50   ~ 0
@@ -1973,4 +1972,10 @@ Text Label 1950 2450 0    50   ~ 0
 MIPI_SEL
 Text Notes 9400 7550 0    79   ~ 16
 USB pullup
+Text Label 9500 2350 0    50   ~ 0
+LED1_ISINK
+Text Label 9500 2450 0    50   ~ 0
+LED2_ISINK
+Text Label 9500 2550 0    50   ~ 0
+LED3_ISINK
 $EndSCHEMATC
