@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zglue-dragon-adapter-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1433,18 +1434,18 @@ Text Label 12650 3350 0    50   ~ 0
 PROC_OUT_1
 Text Label 12650 3450 0    50   ~ 0
 PROC_OUT_2
-Text Label 11100 1550 0    50   ~ 0
+Text Label 10850 1550 0    50   ~ 0
 E_PROC_RST
-Text Label 11100 1650 0    50   ~ 0
+Text Label 10850 1650 0    50   ~ 0
 E_PROC_SI
-Text Label 11100 1750 0    50   ~ 0
+Text Label 10850 1750 0    50   ~ 0
 E_PROC_SO
-Text Label 11100 1850 0    50   ~ 0
+Text Label 10850 1850 0    50   ~ 0
 E_PROC_SCK
-Text Label 11100 1950 0    50   ~ 0
+Text Label 10850 1950 0    50   ~ 0
 E_PROC_SS
-Text Label 11100 2150 0    50   ~ 0
-CTRL_RST
+Text Label 10850 2150 0    50   ~ 0
+CTRL_RST_FLASH_SOC_CS
 Text Label 7900 5650 0    50   ~ 0
 CTRL_SI
 Text Label 7900 5800 0    50   ~ 0
@@ -1459,7 +1460,7 @@ Text Label 9500 1950 0    50   ~ 0
 DBG_TX
 Text Label 12650 3150 0    50   ~ 0
 CTRL_OUT
-Text Label 11100 2750 0    50   ~ 0
+Text Label 10850 2750 0    50   ~ 0
 DONE
 Text Label 9850 7950 0    50   ~ 0
 USB_DET
@@ -1719,13 +1720,13 @@ Wire Wire Line
 Wire Wire Line
 	12300 3450 13200 3450
 Wire Wire Line
-	11850 1550 11100 1550
+	11850 1550 10850 1550
 Wire Wire Line
-	11850 1650 11100 1650
+	11850 1650 10850 1650
 Wire Wire Line
-	11850 1750 11100 1750
+	11850 1750 10850 1750
 Wire Wire Line
-	11850 1850 11100 1850
+	11850 1850 10850 1850
 $Comp
 L power:GND #PWR022
 U 1 1 5E378B12
@@ -1751,19 +1752,19 @@ $EndComp
 Wire Wire Line
 	11800 2050 11800 2650
 Wire Wire Line
-	11850 1950 11100 1950
+	11850 1950 10850 1950
 Wire Wire Line
 	11850 2050 11800 2050
 Wire Wire Line
-	11850 2150 11100 2150
+	11850 2150 10850 2150
 Wire Wire Line
-	11850 2250 11100 2250
+	11850 2250 10850 2250
 Wire Wire Line
-	11850 2350 11100 2350
+	11850 2350 10850 2350
 Wire Wire Line
-	11850 2450 11100 2450
+	11850 2450 10850 2450
 Wire Wire Line
-	11850 2550 11100 2550
+	11850 2550 10850 2550
 $Comp
 L antmicroResistors0402:R_0R_0402 R15
 U 1 1 5E427308
@@ -1908,23 +1909,17 @@ Connection ~ 11800 2650
 Wire Wire Line
 	11800 2650 11800 3450
 Wire Wire Line
-	11850 2750 11100 2750
-Text Label 11100 2250 0    50   ~ 0
+	11850 2750 10850 2750
+Text Label 10850 2250 0    50   ~ 0
 E_CTRL_SI
-Text Label 11100 2350 0    50   ~ 0
+Text Label 10850 2350 0    50   ~ 0
 E_CTRL_SO
-Text Label 11100 2450 0    50   ~ 0
+Text Label 10850 2450 0    50   ~ 0
 E_CTRL_SCK
-Text Label 11100 2550 0    50   ~ 0
+Text Label 10850 2550 0    50   ~ 0
 E_CTRL_SS
 Text Notes 11800 1400 0    50   ~ 0
 Mating - 556500488
-Wire Wire Line
-	11850 3150 11100 3150
-Wire Wire Line
-	11850 3250 11100 3250
-Wire Wire Line
-	11850 3350 11100 3350
 Wire Wire Line
 	11800 3450 11850 3450
 Connection ~ 11800 3450
@@ -1962,12 +1957,6 @@ Wire Wire Line
 	8750 5950 9700 5950
 Wire Wire Line
 	8750 6100 9700 6100
-Text Label 11100 3350 0    50   ~ 0
-PIO3
-Text Label 11100 3250 0    50   ~ 0
-PIO2
-Text Label 11100 3150 0    50   ~ 0
-PIO1
 Text Label 1950 2450 0    50   ~ 0
 MIPI_SEL
 Text Notes 9400 7550 0    79   ~ 16
@@ -1978,4 +1967,28 @@ Text Label 9500 2450 0    50   ~ 0
 LED2_ISINK
 Text Label 9500 2550 0    50   ~ 0
 LED3_ISINK
+Text Label 10850 2850 0    50   ~ 0
+FLASH_CLK
+Text Label 10850 2950 0    50   ~ 0
+FLASH_CS
+Text Label 10850 3050 0    50   ~ 0
+FLASH_IO0
+Text Label 10850 3150 0    50   ~ 0
+FLASH_IO1
+Text Label 10850 3250 0    50   ~ 0
+FLASH_IO2
+Wire Wire Line
+	11850 2850 10850 2850
+Wire Wire Line
+	11850 2950 10850 2950
+Wire Wire Line
+	11850 3050 10850 3050
+Wire Wire Line
+	11850 3150 10850 3150
+Wire Wire Line
+	11850 3250 10850 3250
+Text Label 10850 3350 0    50   ~ 0
+FLASH_IO3
+Wire Wire Line
+	11850 3350 10850 3350
 $EndSCHEMATC
