@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:zglue-dragon-adapter-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1967,28 +1966,16 @@ Text Label 9500 2450 0    50   ~ 0
 LED2_ISINK
 Text Label 9500 2550 0    50   ~ 0
 LED3_ISINK
-Text Label 10850 2850 0    50   ~ 0
-FLASH_CLK
-Text Label 10850 2950 0    50   ~ 0
-FLASH_CS
-Text Label 10850 3050 0    50   ~ 0
-FLASH_IO0
-Text Label 10850 3150 0    50   ~ 0
-FLASH_IO1
-Text Label 10850 3250 0    50   ~ 0
-FLASH_IO2
-Wire Wire Line
-	11850 2850 10850 2850
-Wire Wire Line
-	11850 2950 10850 2950
-Wire Wire Line
-	11850 3050 10850 3050
-Wire Wire Line
-	11850 3150 10850 3150
-Wire Wire Line
-	11850 3250 10850 3250
-Text Label 10850 3350 0    50   ~ 0
-FLASH_IO3
-Wire Wire Line
-	11850 3350 10850 3350
+Text Notes 11350 2850 0    50   ~ 0
+Reserved
+Text Notes 11350 2950 0    50   ~ 0
+Reserved
+Text Notes 11350 3050 0    50   ~ 0
+Reserved
+Text Notes 11350 3150 0    50   ~ 0
+Reserved
+Text Notes 11350 3250 0    50   ~ 0
+Reserved
+Text Notes 11350 3350 0    50   ~ 0
+Reserved
 $EndSCHEMATC
