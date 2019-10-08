@@ -143,28 +143,6 @@ F 3 "" H 2050 5300 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP5
-U 1 1 5D8CA6F0
-P 1850 4700
-F 0 "TP5" V 1850 4600 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 4600 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 4900 60  0001 L CNN
-F 3 "" H 2050 5000 60  0001 L CNN
-	1    1850 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP6
-U 1 1 5D8CA73B
-P 1850 4800
-F 0 "TP6" V 1850 4700 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1850 4700 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5000 60  0001 L CNN
-F 3 "" H 2050 5100 60  0001 L CNN
-	1    1850 4800
-	0    1    1    0   
-$EndComp
-$Comp
 L antmicroTestPoints:TP_SMD1MM TP3
 U 1 1 5D8CA753
 P 1850 2950
@@ -397,14 +375,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 5500 5000 5500
 Wire Wire Line
-	2550 4700 1950 4700
-Wire Wire Line
-	2550 4800 1950 4800
-Text Label 1950 4700 0    50   ~ 0
-DMUX
-Text Label 1950 4800 0    50   ~ 0
-AMUX
-Wire Wire Line
 	2550 4900 1950 4900
 Wire Wire Line
 	2550 5000 1950 5000
@@ -451,19 +421,6 @@ F 3 "" H 2050 3500 60  0001 L CNN
 $EndComp
 Wire Wire Line
 	1850 3300 2550 3300
-$Comp
-L antmicroTestPoints:TP_SMD1MM TP13
-U 1 1 5D92F140
-P 5050 6250
-F 0 "TP13" V 5050 6100 50  0000 C CNN
-F 1 "TP_SMD1MM" H 5050 6150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5250 6450 60  0001 L CNN
-F 3 "" H 5250 6550 60  0001 L CNN
-	1    5050 6250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4400 6250 4950 6250
 Wire Wire Line
 	4400 6150 4950 6150
 $Comp
@@ -516,8 +473,6 @@ Text Label 4550 5900 0    50   ~ 0
 USB_D_P
 Text Label 4550 6150 0    50   ~ 0
 ULPM_WAKE
-Text Label 4550 6250 0    50   ~ 0
-VX
 $Comp
 L power:GND #PWR07
 U 1 1 5D947939
@@ -603,12 +558,8 @@ Wire Wire Line
 	1850 3900 2550 3900
 Wire Wire Line
 	2550 3600 1950 3600
-Wire Wire Line
-	2550 3700 1950 3700
 Text Label 1950 3600 0    50   ~ 0
 VSENSE
-Text Label 1950 3700 0    50   ~ 0
-VDDIO_BST
 Text Label 1950 5800 0    50   ~ 0
 PIO3
 Text Label 1950 5900 0    50   ~ 0
@@ -1978,4 +1929,14 @@ Text Notes 11350 3250 0    50   ~ 0
 Reserved
 Text Notes 11350 3350 0    50   ~ 0
 Reserved
+Text Notes 10850 7550 0    79   ~ 16
+CSI INT
+Text Notes 2400 4700 0    50   ~ 0
+NC
+Text Notes 2400 3700 0    50   ~ 0
+NC
+Text Notes 4450 6250 0    50   ~ 0
+NC
+Text Notes 2400 4800 0    50   ~ 0
+NC
 $EndSCHEMATC
