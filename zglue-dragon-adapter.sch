@@ -2019,6 +2019,15 @@ Text Label 9100 5650 0    50   ~ 0
 CTRL_RST_FLASH_SOC_CS
 Text Label 7900 5650 0    50   ~ 0
 CTRL_RST
-Text Notes 950  3600 0    50   ~ 0
-VSENSE not connected!
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP5
+U 1 1 5DB1BFE4
+P 1850 3600
+F 0 "TP5" V 1850 3500 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1850 3500 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3800 60  0001 L CNN
+F 3 "" H 2050 3900 60  0001 L CNN
+	1    1850 3600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
