@@ -1,4 +1,4 @@
-(module Z-Glue_LGA-96 locked (layer F.Cu) (tedit 5DB2CEE8)
+(module Z-Glue_LGA-96 locked (layer F.Cu) (tedit 5DF370B8)
   (fp_text reference U1 (at -4.04 -3.75 90) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
@@ -124,7 +124,7 @@
   (pad EP thru_hole circle (at -1.55 0) (size 0.457 0.457) (drill 0.2) (layers *.Cu *.Mask))
   (pad EP thru_hole circle (at -1.55 1.15) (size 0.457 0.457) (drill 0.2) (layers *.Cu *.Mask))
   (pad EP thru_hole circle (at 1.55 1.15) (size 0.457 0.457) (drill 0.2) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/lib/Z-Glue_LGA-96.step
+  (model ${KIPRJMOD}/lib//3d-models/Z-Glue_LGA-96.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

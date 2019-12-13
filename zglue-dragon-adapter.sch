@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:zglue-dragon-adapter-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L zglue-dragon:zGlue-Dragon U1
+L zglue-dragon-adapter:zGlue-Dragon U1
 U 1 1 5D8CB9E8
 P 3400 3350
 F 0 "U1" H 3475 5765 50  0000 C CNN
 F 1 "zGlue-Dragon" H 3475 5674 50  0000 C CNN
-F 2 "lib:Z-Glue_LGA-96" H 3400 3350 50  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:Z-Glue_LGA-96" H 3400 3350 50  0001 C CNN
 F 3 "" H 3400 3350 50  0001 C CNN
 	1    3400 3350
 	1    0    0    -1  
@@ -133,23 +132,23 @@ Text Label 1950 4350 0    50   ~ 0
 Text Label 1950 4450 0    50   ~ 0
 2V5
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP8
+L zglue-dragon-adapter:TP_SMD1MM TP8
 U 1 1 5D8CA5C3
 P 1850 5000
 F 0 "TP8" V 1850 4900 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 4900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5200 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 5200 60  0001 L CNN
 F 3 "" H 2050 5300 60  0001 L CNN
 	1    1850 5000
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP3
+L zglue-dragon-adapter:TP_SMD1MM TP3
 U 1 1 5D8CA753
 P 1850 2950
 F 0 "TP3" V 1850 2850 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 2850 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3150 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 3150 60  0001 L CNN
 F 3 "" H 2050 3250 60  0001 L CNN
 	1    1850 2950
 	0    1    1    0   
@@ -175,12 +174,12 @@ Wire Wire Line
 Text Label 1950 2350 0    50   ~ 0
 CSI_OE
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP2
+L zglue-dragon-adapter:TP_SMD1MM TP2
 U 1 1 5D8CFCA4
 P 1850 2450
 F 0 "TP2" V 1850 2350 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 2350 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 2650 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 2650 60  0001 L CNN
 F 3 "" H 2050 2750 60  0001 L CNN
 	1    1850 2450
 	0    1    1    0   
@@ -262,23 +261,23 @@ CSI_CLK_FP_N
 Text Notes 6350 7750 0    50   ~ 0
 Place close to zGlue pads
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP1
+L zglue-dragon-adapter:TP_SMD1MM TP1
 U 1 1 5D8F0339
 P 1850 2250
 F 0 "TP1" V 1850 2150 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 2150 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 2450 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 2450 60  0001 L CNN
 F 3 "" H 2050 2550 60  0001 L CNN
 	1    1850 2250
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP14
+L zglue-dragon-adapter:TP_SMD1MM TP14
 U 1 1 5D8F3A5B
 P 5100 3400
 F 0 "TP14" V 5100 3250 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5100 3300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 3600 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 5300 3600 60  0001 L CNN
 F 3 "" H 5300 3700 60  0001 L CNN
 	1    5100 3400
 	0    -1   -1   0   
@@ -296,23 +295,23 @@ LED2_ISINK
 Text Label 4550 3600 0    50   ~ 0
 LED3_ISINK
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP15
+L zglue-dragon-adapter:TP_SMD1MM TP15
 U 1 1 5D8F8F8D
 P 5100 3500
 F 0 "TP15" V 5100 3350 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5100 3400 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 3700 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 5300 3700 60  0001 L CNN
 F 3 "" H 5300 3800 60  0001 L CNN
 	1    5100 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP16
+L zglue-dragon-adapter:TP_SMD1MM TP16
 U 1 1 5D8F8FB7
 P 5100 3600
 F 0 "TP16" V 5100 3450 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5100 3500 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 3800 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 5300 3800 60  0001 L CNN
 F 3 "" H 5300 3900 60  0001 L CNN
 	1    5100 3600
 	0    -1   -1   0   
@@ -380,12 +379,12 @@ Wire Wire Line
 Wire Wire Line
 	2550 5000 1950 5000
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP7
+L zglue-dragon-adapter:TP_SMD1MM TP7
 U 1 1 5D9289B9
 P 1850 4900
 F 0 "TP7" V 1850 4800 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 4800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 5100 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 5100 60  0001 L CNN
 F 3 "" H 2050 5200 60  0001 L CNN
 	1    1850 4900
 	0    1    1    0   
@@ -395,7 +394,7 @@ EXTCLK_EN
 Text Label 1950 5000 0    50   ~ 0
 EXT_CLK
 $Comp
-L power:GND #PWR01
+L zglue-dragon-adapter:GND #PWR01
 U 1 1 5D928CFA
 P 1850 3300
 F 0 "#PWR01" H 1850 3050 50  0001 C CNN
@@ -410,12 +409,12 @@ Wire Wire Line
 Text Label 1950 3200 0    50   ~ 0
 PC_RDY
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP4
+L zglue-dragon-adapter:TP_SMD1MM TP4
 U 1 1 5D92BE5C
 P 1850 3200
 F 0 "TP4" V 1850 3100 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 3100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3400 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 3400 60  0001 L CNN
 F 3 "" H 2050 3500 60  0001 L CNN
 	1    1850 3200
 	0    1    1    0   
@@ -425,12 +424,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 6150 4950 6150
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP12
+L zglue-dragon-adapter:TP_SMD1MM TP12
 U 1 1 5D935A2A
 P 5050 6150
 F 0 "TP12" V 5050 6000 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5050 6050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5250 6350 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 5250 6350 60  0001 L CNN
 F 3 "" H 5250 6450 60  0001 L CNN
 	1    5050 6150
 	0    -1   -1   0   
@@ -440,12 +439,12 @@ Wire Wire Line
 Text Label 4550 5650 0    50   ~ 0
 SYS_CLK
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP17
+L zglue-dragon-adapter:TP_SMD1MM TP17
 U 1 1 5D9390AB
 P 5100 5650
 F 0 "TP17" V 5100 5500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 5100 5550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 5300 5850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 5300 5850 60  0001 L CNN
 F 3 "" H 5300 5950 60  0001 L CNN
 	1    5100 5650
 	0    -1   -1   0   
@@ -475,7 +474,7 @@ USB_D_P
 Text Label 4550 6150 0    50   ~ 0
 ULPM_WAKE
 $Comp
-L power:GND #PWR07
+L zglue-dragon-adapter:GND #PWR07
 U 1 1 5D947939
 P 2400 6750
 F 0 "#PWR07" H 2400 6500 50  0001 C CNN
@@ -512,40 +511,40 @@ Wire Wire Line
 Wire Wire Line
 	2550 5900 1950 5900
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP9
+L zglue-dragon-adapter:TP_SMD1MM TP9
 U 1 1 5D971A5D
 P 1850 5800
 F 0 "TP9" V 1850 5650 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 5700 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 6000 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 6000 60  0001 L CNN
 F 3 "" H 2050 6100 60  0001 L CNN
 	1    1850 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP10
+L zglue-dragon-adapter:TP_SMD1MM TP10
 U 1 1 5D971AC3
 P 1850 5900
 F 0 "TP10" V 1850 5750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 5800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 6100 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 6100 60  0001 L CNN
 F 3 "" H 2050 6200 60  0001 L CNN
 	1    1850 5900
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP11
+L zglue-dragon-adapter:TP_SMD1MM TP11
 U 1 1 5D971AF5
 P 1850 6000
 F 0 "TP11" V 1850 5850 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 5900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 6200 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 6200 60  0001 L CNN
 F 3 "" H 2050 6300 60  0001 L CNN
 	1    1850 6000
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L zglue-dragon-adapter:GND #PWR02
 U 1 1 5D971BCB
 P 1850 3900
 F 0 "#PWR02" H 1850 3650 50  0001 C CNN
@@ -568,12 +567,12 @@ PIO2
 Text Label 1950 6000 0    50   ~ 0
 PIO1
 $Comp
-L antmicroResistors0402:R_100R_0402 R12
+L zglue-dragon-adapter:R_100R_0402 R12
 U 1 1 5D984F07
 P 6900 8100
 F 0 "R12" V 6855 8170 60  0000 L CNN
 F 1 "R_100R_0402" H 6900 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7100 8300 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 7100 8300 60  0001 L CNN
 F 3 "" H 6900 8100 50  0001 C CNN
 F 4 "BOURNS" H 7100 8500 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 7100 8400 60  0001 L CNN "MPN"
@@ -598,12 +597,12 @@ Wire Wire Line
 Wire Wire Line
 	6900 8250 6350 8250
 $Comp
-L antmicroResistors0402:R_100R_0402 R14
+L zglue-dragon-adapter:R_100R_0402 R14
 U 1 1 5D998CAA
 P 7800 8100
 F 0 "R14" V 7755 8170 60  0000 L CNN
 F 1 "R_100R_0402" H 7800 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8000 8300 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8000 8300 60  0001 L CNN
 F 3 "" H 7800 8100 50  0001 C CNN
 F 4 "BOURNS" H 8000 8500 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 8000 8400 60  0001 L CNN "MPN"
@@ -612,12 +611,12 @@ F 6 "100R" V 7853 8170 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100R_0402 R23
+L zglue-dragon-adapter:R_100R_0402 R23
 U 1 1 5D998D12
 P 8700 8100
 F 0 "R23" V 8655 8170 60  0000 L CNN
 F 1 "R_100R_0402" H 8700 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8900 8300 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8900 8300 60  0001 L CNN
 F 3 "" H 8700 8100 50  0001 C CNN
 F 4 "BOURNS" H 8900 8500 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 8900 8400 60  0001 L CNN "MPN"
@@ -644,12 +643,12 @@ MIPI termination
 Text Notes 1550 800  0    79   ~ 16
 Dragon chip
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C1
+L zglue-dragon-adapter:C_10u_0402 C1
 U 1 1 5DA0000B
 P 1450 8200
 F 0 "C1" H 1565 8245 60  0000 L CNN
 F 1 "C_10u_0402" H 1450 8050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1650 8400 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 1650 8400 60  0001 L CNN
 F 3 "" H 1450 8200 50  0001 C CNN
 F 4 "TDK" H 1650 8600 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R0J106M050BC" H 1650 8500 60  0001 L CNN "MPN"
@@ -658,12 +657,12 @@ F 6 "10u" H 1565 8147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C5
+L zglue-dragon-adapter:C_100n_0402_6V3 C5
 U 1 1 5DA00317
 P 2500 8200
 F 0 "C5" H 2615 8245 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2500 8050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2700 8400 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 2700 8400 60  0001 L CNN
 F 3 "" H 2500 8200 50  0001 C CNN
 F 4 "Walsin" H 2700 8600 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2700 8500 60  0001 L CNN "MPN"
@@ -672,7 +671,7 @@ F 6 "100n" H 2615 8147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L zglue-dragon-adapter:GND #PWR03
 U 1 1 5DA0044B
 P 1450 8350
 F 0 "#PWR03" H 1450 8100 50  0001 C CNN
@@ -683,7 +682,7 @@ F 3 "" H 1450 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L zglue-dragon-adapter:GND #PWR08
 U 1 1 5DA004B2
 P 2500 8350
 F 0 "#PWR08" H 2500 8100 50  0001 C CNN
@@ -694,12 +693,12 @@ F 3 "" H 2500 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R1
+L zglue-dragon-adapter:R_0R_0402 R1
 U 1 1 5DA005FB
 P 1650 8050
 F 0 "R1" H 1650 8263 60  0000 C CNN
 F 1 "R_0R_0402" H 1650 7900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1850 8250 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 1850 8250 60  0001 L CNN
 F 3 "" H 1650 8050 50  0001 C CNN
 F 4 "PANASONIC" H 1850 8450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1850 8350 60  0001 L CNN "MPN"
@@ -719,12 +718,12 @@ Voltage filtering
 Text Label 2750 8750 0    50   ~ 0
 1V8_SYS
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C6
+L zglue-dragon-adapter:C_100n_0402_6V3 C6
 U 1 1 5DA29CBF
 P 2500 8900
 F 0 "C6" H 2615 8945 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2500 8750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2700 9100 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 2700 9100 60  0001 L CNN
 F 3 "" H 2500 8900 50  0001 C CNN
 F 4 "Walsin" H 2700 9300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2700 9200 60  0001 L CNN "MPN"
@@ -733,7 +732,7 @@ F 6 "100n" H 2615 8847 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L zglue-dragon-adapter:GND #PWR04
 U 1 1 5DA29CC6
 P 1450 9050
 F 0 "#PWR04" H 1450 8800 50  0001 C CNN
@@ -744,7 +743,7 @@ F 3 "" H 1450 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR09
+L zglue-dragon-adapter:GND #PWR09
 U 1 1 5DA29CCC
 P 2500 9050
 F 0 "#PWR09" H 2500 8800 50  0001 C CNN
@@ -755,12 +754,12 @@ F 3 "" H 2500 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R2
+L zglue-dragon-adapter:R_0R_0402 R2
 U 1 1 5DA29CD5
 P 1650 8750
 F 0 "R2" H 1650 8963 60  0000 C CNN
 F 1 "R_0R_0402" H 1650 8600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1850 8950 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 1850 8950 60  0001 L CNN
 F 3 "" H 1650 8750 50  0001 C CNN
 F 4 "PANASONIC" H 1850 9150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1850 9050 60  0001 L CNN "MPN"
@@ -774,12 +773,12 @@ Connection ~ 2500 8750
 Wire Wire Line
 	1500 8750 1450 8750
 $Comp
-L antmicroCapacitors0402:C_2u2_0402 C2
+L zglue-dragon-adapter:C_2u2_0402 C2
 U 1 1 5DA30683
 P 1450 8900
 F 0 "C2" H 1565 8945 60  0000 L CNN
 F 1 "C_2u2_0402" H 1450 8750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1650 9100 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 1650 9100 60  0001 L CNN
 F 3 "" H 1450 8900 50  0001 C CNN
 F 4 "TDK" H 1650 9300 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 1650 9200 60  0001 L CNN "MPN"
@@ -788,12 +787,12 @@ F 6 "2u2" H 1565 8847 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C8
+L zglue-dragon-adapter:C_100n_0402_6V3 C8
 U 1 1 5DA307E8
 P 3350 10650
 F 0 "C8" H 3465 10695 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3350 10500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3550 10850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 3550 10850 60  0001 L CNN
 F 3 "" H 3350 10650 50  0001 C CNN
 F 4 "Walsin" H 3550 11050 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3550 10950 60  0001 L CNN "MPN"
@@ -802,7 +801,7 @@ F 6 "100n" H 3465 10597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L zglue-dragon-adapter:GND #PWR06
 U 1 1 5DA307EF
 P 1450 10750
 F 0 "#PWR06" H 1450 10500 50  0001 C CNN
@@ -813,12 +812,12 @@ F 3 "" H 1450 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R4
+L zglue-dragon-adapter:R_0R_0402 R4
 U 1 1 5DA307FE
 P 1650 10450
 F 0 "R4" H 1650 10663 60  0000 C CNN
 F 1 "R_0R_0402" H 1650 10300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1850 10650 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 1850 10650 60  0001 L CNN
 F 3 "" H 1650 10450 50  0001 C CNN
 F 4 "PANASONIC" H 1850 10850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1850 10750 60  0001 L CNN "MPN"
@@ -829,12 +828,12 @@ $EndComp
 Wire Wire Line
 	1500 10450 1450 10450
 $Comp
-L antmicroCapacitors0402:C_2u2_0402 C4
+L zglue-dragon-adapter:C_2u2_0402 C4
 U 1 1 5DA3080C
 P 1450 10600
 F 0 "C4" H 1565 10645 60  0000 L CNN
 F 1 "C_2u2_0402" H 1450 10450 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1650 10800 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 1650 10800 60  0001 L CNN
 F 3 "" H 1450 10600 50  0001 C CNN
 F 4 "TDK" H 1650 11000 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 1650 10900 60  0001 L CNN "MPN"
@@ -843,12 +842,12 @@ F 6 "2u2" H 1565 10547 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C9
+L zglue-dragon-adapter:C_100n_0402_6V3 C9
 U 1 1 5DA37CD2
 P 3750 10650
 F 0 "C9" H 3865 10695 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3750 10500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 3950 10850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 3950 10850 60  0001 L CNN
 F 3 "" H 3750 10650 50  0001 C CNN
 F 4 "Walsin" H 3950 11050 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3950 10950 60  0001 L CNN "MPN"
@@ -857,12 +856,12 @@ F 6 "100n" H 3865 10597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R5
+L zglue-dragon-adapter:R_0R_0402 R5
 U 1 1 5DA37D7F
 P 3050 10250
 F 0 "R5" H 3000 10350 60  0000 C CNN
 F 1 "R_0R_0402" H 3050 10100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3250 10450 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 3250 10450 60  0001 L CNN
 F 3 "" H 3050 10250 50  0001 C CNN
 F 4 "PANASONIC" H 3250 10650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3250 10550 60  0001 L CNN "MPN"
@@ -871,12 +870,12 @@ F 6 "0R" H 3150 10350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R6
+L zglue-dragon-adapter:R_0R_0402 R6
 U 1 1 5DA37E2F
 P 3050 10450
 F 0 "R6" H 3000 10550 60  0000 C CNN
 F 1 "R_0R_0402" H 3050 10300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3250 10650 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 3250 10650 60  0001 L CNN
 F 3 "" H 3050 10450 50  0001 C CNN
 F 4 "PANASONIC" H 3250 10850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3250 10750 60  0001 L CNN "MPN"
@@ -896,7 +895,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 10450 3350 10450
 $Comp
-L power:GND #PWR011
+L zglue-dragon-adapter:GND #PWR011
 U 1 1 5DA7B022
 P 3350 10800
 F 0 "#PWR011" H 3350 10550 50  0001 C CNN
@@ -907,7 +906,7 @@ F 3 "" H 3350 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L zglue-dragon-adapter:GND #PWR012
 U 1 1 5DA7B06F
 P 3750 10800
 F 0 "#PWR012" H 3750 10550 50  0001 C CNN
@@ -936,12 +935,12 @@ Text Label 4000 10450 0    50   ~ 0
 Text Label 4850 10450 0    50   ~ 0
 1V2_SYS
 $Comp
-L antmicroResistors0402:R_100R_0402 R9
+L zglue-dragon-adapter:R_100R_0402 R9
 U 1 1 5DAD7DDD
 P 5450 10200
 F 0 "R9" H 5400 10300 60  0000 C CNN
 F 1 "R_100R_0402" H 5450 10050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5650 10400 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 5650 10400 60  0001 L CNN
 F 3 "" H 5450 10200 50  0001 C CNN
 F 4 "BOURNS" H 5650 10600 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 5650 10500 60  0001 L CNN "MPN"
@@ -950,12 +949,12 @@ F 6 "100R" H 5600 10300 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_100R_0402 R10
+L zglue-dragon-adapter:R_100R_0402 R10
 U 1 1 5DAD7E79
 P 5450 10450
 F 0 "R10" H 5400 10550 60  0000 C CNN
 F 1 "R_100R_0402" H 5450 10300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5650 10650 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 5650 10650 60  0001 L CNN
 F 3 "" H 5450 10450 50  0001 C CNN
 F 4 "BOURNS" H 5650 10850 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1000GLF" H 5650 10750 60  0001 L CNN "MPN"
@@ -977,12 +976,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 10200 5200 10200
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C12
+L zglue-dragon-adapter:C_100n_0402_6V3 C12
 U 1 1 5DB184A0
 P 5750 10700
 F 0 "C12" H 5865 10745 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 5750 10550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5950 10900 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 5950 10900 60  0001 L CNN
 F 3 "" H 5750 10700 50  0001 C CNN
 F 4 "Walsin" H 5950 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5950 11000 60  0001 L CNN "MPN"
@@ -991,12 +990,12 @@ F 6 "100n" H 5865 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C14
+L zglue-dragon-adapter:C_100n_0402_6V3 C14
 U 1 1 5DB185A4
 P 6500 10700
 F 0 "C14" H 6615 10745 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 6500 10550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6700 10900 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 6700 10900 60  0001 L CNN
 F 3 "" H 6500 10700 50  0001 C CNN
 F 4 "Walsin" H 6700 11100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6700 11000 60  0001 L CNN "MPN"
@@ -1005,12 +1004,12 @@ F 6 "100n" H 6615 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C13
+L zglue-dragon-adapter:C_10n_0402 C13
 U 1 1 5DB2894E
 P 6150 10700
 F 0 "C13" H 6265 10745 60  0000 L CNN
 F 1 "C_10n_0402" H 6150 10550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 6350 10900 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 6350 10900 60  0001 L CNN
 F 3 "" H 6150 10700 50  0001 C CNN
 F 4 "AVX" H 6350 11100 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 6350 11000 60  0001 L CNN "MPN"
@@ -1019,12 +1018,12 @@ F 6 "10n" H 6265 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10n_0402 C15
+L zglue-dragon-adapter:C_10n_0402 C15
 U 1 1 5DB289F4
 P 6900 10700
 F 0 "C15" H 7015 10745 60  0000 L CNN
 F 1 "C_10n_0402" H 6900 10550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7100 10900 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 7100 10900 60  0001 L CNN
 F 3 "" H 6900 10700 50  0001 C CNN
 F 4 "AVX" H 7100 11100 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 7100 11000 60  0001 L CNN "MPN"
@@ -1033,7 +1032,7 @@ F 6 "10n" H 7015 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L zglue-dragon-adapter:GND #PWR015
 U 1 1 5DB28A9A
 P 5750 10850
 F 0 "#PWR015" H 5750 10600 50  0001 C CNN
@@ -1044,7 +1043,7 @@ F 3 "" H 5750 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L zglue-dragon-adapter:GND #PWR016
 U 1 1 5DB28AF3
 P 6150 10850
 F 0 "#PWR016" H 6150 10600 50  0001 C CNN
@@ -1055,7 +1054,7 @@ F 3 "" H 6150 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L zglue-dragon-adapter:GND #PWR017
 U 1 1 5DB28B4C
 P 6500 10850
 F 0 "#PWR017" H 6500 10600 50  0001 C CNN
@@ -1066,7 +1065,7 @@ F 3 "" H 6500 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L zglue-dragon-adapter:GND #PWR019
 U 1 1 5DB28BA5
 P 6900 10850
 F 0 "#PWR019" H 6900 10600 50  0001 C CNN
@@ -1105,12 +1104,12 @@ Text Label 1200 9500 0    50   ~ 0
 Text Label 2750 9500 0    50   ~ 0
 2V5_SYS
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C7
+L zglue-dragon-adapter:C_100n_0402_6V3 C7
 U 1 1 5DB84A77
 P 2500 9650
 F 0 "C7" H 2615 9695 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2500 9500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2700 9850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 2700 9850 60  0001 L CNN
 F 3 "" H 2500 9650 50  0001 C CNN
 F 4 "Walsin" H 2700 10050 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2700 9950 60  0001 L CNN "MPN"
@@ -1119,7 +1118,7 @@ F 6 "100n" H 2615 9597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L zglue-dragon-adapter:GND #PWR05
 U 1 1 5DB84A7E
 P 1450 9800
 F 0 "#PWR05" H 1450 9550 50  0001 C CNN
@@ -1130,7 +1129,7 @@ F 3 "" H 1450 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L zglue-dragon-adapter:GND #PWR010
 U 1 1 5DB84A84
 P 2500 9800
 F 0 "#PWR010" H 2500 9550 50  0001 C CNN
@@ -1141,12 +1140,12 @@ F 3 "" H 2500 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R3
+L zglue-dragon-adapter:R_0R_0402 R3
 U 1 1 5DB84A8D
 P 1650 9500
 F 0 "R3" H 1650 9713 60  0000 C CNN
 F 1 "R_0R_0402" H 1650 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1850 9700 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 1850 9700 60  0001 L CNN
 F 3 "" H 1650 9500 50  0001 C CNN
 F 4 "PANASONIC" H 1850 9900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1850 9800 60  0001 L CNN "MPN"
@@ -1160,12 +1159,12 @@ Connection ~ 2500 9500
 Wire Wire Line
 	1500 9500 1450 9500
 $Comp
-L antmicroCapacitors0402:C_2u2_0402 C3
+L zglue-dragon-adapter:C_2u2_0402 C3
 U 1 1 5DB84A9B
 P 1450 9650
 F 0 "C3" H 1565 9695 60  0000 L CNN
 F 1 "C_2u2_0402" H 1450 9500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1650 9850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 1650 9850 60  0001 L CNN
 F 3 "" H 1450 9650 50  0001 C CNN
 F 4 "TDK" H 1650 10050 60  0001 L CNN "Manufacturer"
 F 5 "C1005X5R1A225K050BC" H 1650 9950 60  0001 L CNN "MPN"
@@ -1176,12 +1175,12 @@ $EndComp
 Text Label 6350 8500 0    50   ~ 0
 CSI_OE
 $Comp
-L antmicroResistors0402:R_10k_0402 R13
+L zglue-dragon-adapter:R_10k_0402 R13
 U 1 1 5DBA0BF8
 P 6900 8650
 F 0 "R13" V 6855 8720 60  0000 L CNN
 F 1 "R_10k_0402" H 6900 8500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7100 8850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 7100 8850 60  0001 L CNN
 F 3 "" H 6900 8650 50  0001 C CNN
 F 4 "VISHAY" H 7100 9050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7100 8950 60  0001 L CNN "MPN"
@@ -1190,7 +1189,7 @@ F 6 "10k" V 6953 8720 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR018
+L zglue-dragon-adapter:GND #PWR018
 U 1 1 5DBA0ED8
 P 6900 8800
 F 0 "#PWR018" H 6900 8550 50  0001 C CNN
@@ -1203,7 +1202,7 @@ $EndComp
 Wire Wire Line
 	6900 8500 6350 8500
 $Comp
-L power:GND #PWR014
+L zglue-dragon-adapter:GND #PWR014
 U 1 1 5DBB37C8
 P 5000 8500
 F 0 "#PWR014" H 5000 8250 50  0001 C CNN
@@ -1216,12 +1215,12 @@ $EndComp
 Text Label 3600 8050 0    50   ~ 0
 VUSB
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C11
+L zglue-dragon-adapter:C_100n_0402_6V3 C11
 U 1 1 5DBBCE74
 P 5000 8350
 F 0 "C11" H 5115 8395 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 5000 8200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5200 8550 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 5200 8550 60  0001 L CNN
 F 3 "" H 5000 8350 50  0001 C CNN
 F 4 "Walsin" H 5200 8750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5200 8650 60  0001 L CNN "MPN"
@@ -1230,12 +1229,12 @@ F 6 "100n" H 5115 8297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R7
+L zglue-dragon-adapter:R_0R_0402 R7
 U 1 1 5DBC635C
 P 4200 7850
 F 0 "R7" H 4150 7950 60  0000 C CNN
 F 1 "R_0R_0402" H 4200 7700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4400 8050 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 4400 8050 60  0001 L CNN
 F 3 "" H 4200 7850 50  0001 C CNN
 F 4 "PANASONIC" H 4400 8250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4400 8150 60  0001 L CNN "MPN"
@@ -1244,12 +1243,12 @@ F 6 "0R" H 4300 7950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R8
+L zglue-dragon-adapter:R_0R_0402 R8
 U 1 1 5DBC6690
 P 4200 8050
 F 0 "R8" H 4150 8150 60  0000 C CNN
 F 1 "R_0R_0402" H 4200 7900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4400 8250 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 4400 8250 60  0001 L CNN
 F 3 "" H 4200 8050 50  0001 C CNN
 F 4 "PANASONIC" H 4400 8450 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4400 8350 60  0001 L CNN "MPN"
@@ -1269,7 +1268,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 8050 4550 8050
 $Comp
-L power:GND #PWR013
+L zglue-dragon-adapter:GND #PWR013
 U 1 1 5DBFF3AE
 P 4550 8500
 F 0 "#PWR013" H 4550 8250 50  0001 C CNN
@@ -1280,12 +1279,12 @@ F 3 "" H 4550 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C10
+L zglue-dragon-adapter:C_100n_0402_6V3 C10
 U 1 1 5DBFF3B7
 P 4550 8350
 F 0 "C10" H 4250 8400 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 4550 8200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4750 8550 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-cap" H 4750 8550 60  0001 L CNN
 F 3 "" H 4550 8350 50  0001 C CNN
 F 4 "Walsin" H 4750 8750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4750 8650 60  0001 L CNN "MPN"
@@ -1420,12 +1419,12 @@ Text Label 9500 3350 0    50   ~ 0
 Text Label 9500 3150 0    50   ~ 0
 1V2_SYS
 $Comp
-L antmicroResistors0402:R_1k5_0402 R11
+L zglue-dragon-adapter:R_1k5_0402 R11
 U 1 1 5DCE918C
 P 9650 8100
 F 0 "R11" V 9600 7850 60  0000 L CNN
 F 1 "R_1k5_0402" H 9650 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9850 8300 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9850 8300 60  0001 L CNN
 F 3 "" H 9650 8100 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 9850 8500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1501X" H 9850 8400 60  0001 L CNN "MPN"
@@ -1442,13 +1441,15 @@ Wire Wire Line
 Text Notes 8800 1400 0    50   ~ 0
 Mating - 556500488
 $Comp
-L antmicroB2bConnectors:543630489 J1
+L zglue-dragon-adapter:543630489 J1
 U 1 1 5DD17041
 P 8900 1300
 F 0 "J1" H 8900 1450 50  0000 C CNN
 F 1 "543630489" H 9050 1350 50  0000 C CNN
-F 2 "antmicro-footprints:543630489" H 8650 -1050 50  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:543630489" H 8650 -1050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9150 -1000 50  0001 C CNN
+F 4 "543630489" H 0   0   50  0001 C CNN "MPN"
+F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
 	1    8900 1300
 	1    0    0    -1  
 $EndComp
@@ -1457,7 +1458,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 1550 8750 1850
 $Comp
-L power:GND #PWR020
+L zglue-dragon-adapter:GND #PWR020
 U 1 1 5DD41DEC
 P 8750 3650
 F 0 "#PWR020" H 8750 3400 50  0001 C CNN
@@ -1468,7 +1469,7 @@ F 3 "" H 8750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L zglue-dragon-adapter:GND #PWR021
 U 1 1 5DD4C734
 P 9300 3650
 F 0 "#PWR021" H 9300 3400 50  0001 C CNN
@@ -1573,7 +1574,7 @@ Baseboard connectors
 Wire Wire Line
 	13200 1650 12300 1650
 $Comp
-L power:GND #PWR023
+L zglue-dragon-adapter:GND #PWR023
 U 1 1 5E03411C
 P 12350 3550
 F 0 "#PWR023" H 12350 3300 50  0001 C CNN
@@ -1657,7 +1658,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 1850 10850 1850
 $Comp
-L power:GND #PWR022
+L zglue-dragon-adapter:GND #PWR022
 U 1 1 5E378B12
 P 11800 3550
 F 0 "#PWR022" H 11800 3300 50  0001 C CNN
@@ -1668,13 +1669,15 @@ F 3 "" H 11800 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroB2bConnectors:543630489 J2
+L zglue-dragon-adapter:543630489 J2
 U 1 1 5DD17377
 P 11950 1300
 F 0 "J2" H 11850 1450 50  0000 C CNN
 F 1 "543630489" H 12050 1350 50  0000 C CNN
-F 2 "antmicro-footprints:543630489" H 11700 -1050 50  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:543630489" H 11700 -1050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 12200 -1000 50  0001 C CNN
+F 4 "543630489" H 0   0   50  0001 C CNN "MPN"
+F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11950 1300
 	1    0    0    -1  
 $EndComp
@@ -1695,12 +1698,12 @@ Wire Wire Line
 Wire Wire Line
 	11850 2550 10850 2550
 $Comp
-L antmicroResistors0402:R_0R_0402 R15
+L zglue-dragon-adapter:R_0R_0402 R15
 U 1 1 5E427308
 P 8600 4800
 F 0 "R15" H 8800 4850 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 5000 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5000 60  0001 L CNN
 F 3 "" H 8600 4800 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5100 60  0001 L CNN "MPN"
@@ -1719,12 +1722,12 @@ PROC_SS
 Wire Wire Line
 	7900 4800 8450 4800
 $Comp
-L antmicroResistors0402:R_0R_0402 R16
+L zglue-dragon-adapter:R_0R_0402 R16
 U 1 1 5E4A2EF4
 P 8600 4950
 F 0 "R16" H 8800 5000 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 5150 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5150 60  0001 L CNN
 F 3 "" H 8600 4950 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5250 60  0001 L CNN "MPN"
@@ -1735,12 +1738,12 @@ $EndComp
 Wire Wire Line
 	7900 4950 8450 4950
 $Comp
-L antmicroResistors0402:R_0R_0402 R17
+L zglue-dragon-adapter:R_0R_0402 R17
 U 1 1 5E4B81FF
 P 8600 5100
 F 0 "R17" H 8800 5150 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 5300 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5300 60  0001 L CNN
 F 3 "" H 8600 5100 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5400 60  0001 L CNN "MPN"
@@ -1751,12 +1754,12 @@ $EndComp
 Wire Wire Line
 	7900 5100 8450 5100
 $Comp
-L antmicroResistors0402:R_0R_0402 R18
+L zglue-dragon-adapter:R_0R_0402 R18
 U 1 1 5E4CDB99
 P 8600 5250
 F 0 "R18" H 8800 5300 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 5450 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5450 60  0001 L CNN
 F 3 "" H 8600 5250 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5550 60  0001 L CNN "MPN"
@@ -1767,12 +1770,12 @@ $EndComp
 Wire Wire Line
 	7900 5250 8450 5250
 $Comp
-L antmicroResistors0402:R_0R_0402 R19
+L zglue-dragon-adapter:R_0R_0402 R19
 U 1 1 5E57F379
 P 8600 5800
 F 0 "R19" H 8800 5850 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 6000 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6000 60  0001 L CNN
 F 3 "" H 8600 5800 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 6100 60  0001 L CNN "MPN"
@@ -1783,12 +1786,12 @@ $EndComp
 Wire Wire Line
 	7900 5800 8450 5800
 $Comp
-L antmicroResistors0402:R_0R_0402 R20
+L zglue-dragon-adapter:R_0R_0402 R20
 U 1 1 5E57F389
 P 8600 5950
 F 0 "R20" H 8800 6000 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 6150 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6150 60  0001 L CNN
 F 3 "" H 8600 5950 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 6250 60  0001 L CNN "MPN"
@@ -1799,12 +1802,12 @@ $EndComp
 Wire Wire Line
 	7900 5950 8450 5950
 $Comp
-L antmicroResistors0402:R_0R_0402 R21
+L zglue-dragon-adapter:R_0R_0402 R21
 U 1 1 5E57F395
 P 8600 6100
 F 0 "R21" H 8800 6150 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 6300 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6300 60  0001 L CNN
 F 3 "" H 8600 6100 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 6400 60  0001 L CNN "MPN"
@@ -1815,12 +1818,12 @@ $EndComp
 Wire Wire Line
 	7900 6100 8450 6100
 $Comp
-L antmicroResistors0402:R_0R_0402 R22
+L zglue-dragon-adapter:R_0R_0402 R22
 U 1 1 5E57F3A1
 P 8600 6250
 F 0 "R22" H 8800 6300 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 6100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 6450 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6450 60  0001 L CNN
 F 3 "" H 8600 6250 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 6550 60  0001 L CNN "MPN"
@@ -1925,12 +1928,12 @@ CSI_INT
 Text Label 11200 8250 0    50   ~ 0
 CSI_D1_IN_P
 $Comp
-L antmicroResistors0402:R_220R_0402 R24
+L zglue-dragon-adapter:R_220R_0402 R24
 U 1 1 5DA2E339
 P 10900 8100
 F 0 "R24" V 10855 8170 60  0000 L CNN
 F 1 "R_220R_0402" H 10900 7950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11100 8300 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 11100 8300 60  0001 L CNN
 F 3 "" H 10900 8100 50  0001 C CNN
 F 4 "TE_CONNECTIVITY_/_NEOHM" H 11100 8500 60  0001 L CNN "Manufacturer"
 F 5 "CRG0402J220R" H 11100 8400 60  0001 L CNN "MPN"
@@ -1954,12 +1957,12 @@ NoConn ~ 2550 6150
 NoConn ~ 2550 6250
 NoConn ~ 2550 6350
 $Comp
-L antmicroResistors0402:R_0R_0402 R25
+L zglue-dragon-adapter:R_0R_0402 R25
 U 1 1 5DC78E2D
 P 8600 4650
 F 0 "R25" H 8800 4700 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 4500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 4850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 4850 60  0001 L CNN
 F 3 "" H 8600 4650 50  0001 C CNN
 F 4 "PANASONIC" H 8800 5050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 4950 60  0001 L CNN "MPN"
@@ -1976,12 +1979,12 @@ PROC_RST
 Text Label 9150 4650 0    50   ~ 0
 E_PROC_RST
 $Comp
-L antmicroResistors0402:R_0R_0402 R26
+L zglue-dragon-adapter:R_0R_0402 R26
 U 1 1 5DCC1CB8
 P 8600 5650
 F 0 "R26" H 8800 5700 60  0000 C CNN
 F 1 "R_0R_0402" H 8600 5500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8800 5850 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5850 60  0001 L CNN
 F 3 "" H 8600 5650 50  0001 C CNN
 F 4 "PANASONIC" H 8800 6050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8800 5950 60  0001 L CNN "MPN"
@@ -1998,12 +2001,12 @@ CTRL_RST_FLASH_SOC_CS
 Text Label 7900 5650 0    50   ~ 0
 CTRL_RST
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP5
+L zglue-dragon-adapter:TP_SMD1MM TP5
 U 1 1 5DB1BFE4
 P 1850 3600
 F 0 "TP5" V 1850 3500 50  0000 C CNN
 F 1 "TP_SMD1MM" H 1850 3500 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2050 3800 60  0001 L CNN
+F 2 "zglue-dragon-adapter-footprints:Testpoint_smd_1mm" H 2050 3800 60  0001 L CNN
 F 3 "" H 2050 3900 60  0001 L CNN
 	1    1850 3600
 	0    1    1    0   
