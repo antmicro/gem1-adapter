@@ -4,23 +4,25 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "zGlue Dragon Adapter"
+Title "zGlue GEM1 Adapter"
 Date ""
 Rev "1.0"
-Comp "Antmicro"
+Comp ""
 Comment1 "www.antmicro.com"
-Comment2 ""
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L zglue-dragon-adapter:zGlue-Dragon U1
+L zglue-gem1-adapter:zGlue-GEM1 U1
 U 1 1 5D8CB9E8
 P 3400 3350
 F 0 "U1" H 3475 5765 50  0000 C CNN
-F 1 "zGlue-Dragon" H 3475 5674 50  0000 C CNN
+F 1 "zGlue-GEM1" H 3475 5674 50  0000 C CNN
 F 2 "zglue-dragon-adapter-footprints:Z-Glue_LGA-96" H 3400 3350 50  0001 C CNN
 F 3 "" H 3400 3350 50  0001 C CNN
+F 4 "GEM1" H 3400 3350 50  0001 C CNN "MPN"
+F 5 "zGlue/TSMC" H 3400 3350 50  0001 C CNN "Manufacturer"
 	1    3400 3350
 	1    0    0    -1  
 $EndComp
@@ -132,7 +134,7 @@ Text Label 1950 4350 0    50   ~ 0
 Text Label 1950 4450 0    50   ~ 0
 2V5
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP8
+L zglue-gem1-adapter:TP_SMD1MM TP8
 U 1 1 5D8CA5C3
 P 1850 5000
 F 0 "TP8" V 1850 4900 50  0000 C CNN
@@ -143,7 +145,7 @@ F 3 "" H 2050 5300 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP3
+L zglue-gem1-adapter:TP_SMD1MM TP3
 U 1 1 5D8CA753
 P 1850 2950
 F 0 "TP3" V 1850 2850 50  0000 C CNN
@@ -174,7 +176,7 @@ Wire Wire Line
 Text Label 1950 2350 0    50   ~ 0
 CSI_OE
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP2
+L zglue-gem1-adapter:TP_SMD1MM TP2
 U 1 1 5D8CFCA4
 P 1850 2450
 F 0 "TP2" V 1850 2350 50  0000 C CNN
@@ -258,10 +260,10 @@ Text Label 4550 2700 0    50   ~ 0
 CSI_CLK_FP_P
 Text Label 4550 2800 0    50   ~ 0
 CSI_CLK_FP_N
-Text Notes 6350 7750 0    50   ~ 0
-Place close to zGlue pads
+Text Notes 8250 8100 0    50   ~ 0
+Place close to LGA Pads
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP1
+L zglue-gem1-adapter:TP_SMD1MM TP1
 U 1 1 5D8F0339
 P 1850 2250
 F 0 "TP1" V 1850 2150 50  0000 C CNN
@@ -272,7 +274,7 @@ F 3 "" H 2050 2550 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP14
+L zglue-gem1-adapter:TP_SMD1MM TP14
 U 1 1 5D8F3A5B
 P 5100 3400
 F 0 "TP14" V 5100 3250 50  0000 C CNN
@@ -295,7 +297,7 @@ LED2_ISINK
 Text Label 4550 3600 0    50   ~ 0
 LED3_ISINK
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP15
+L zglue-gem1-adapter:TP_SMD1MM TP15
 U 1 1 5D8F8F8D
 P 5100 3500
 F 0 "TP15" V 5100 3350 50  0000 C CNN
@@ -306,7 +308,7 @@ F 3 "" H 5300 3800 60  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP16
+L zglue-gem1-adapter:TP_SMD1MM TP16
 U 1 1 5D8F8FB7
 P 5100 3600
 F 0 "TP16" V 5100 3450 50  0000 C CNN
@@ -379,7 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 5000 1950 5000
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP7
+L zglue-gem1-adapter:TP_SMD1MM TP7
 U 1 1 5D9289B9
 P 1850 4900
 F 0 "TP7" V 1850 4800 50  0000 C CNN
@@ -394,7 +396,7 @@ EXTCLK_EN
 Text Label 1950 5000 0    50   ~ 0
 EXT_CLK
 $Comp
-L zglue-dragon-adapter:GND #PWR01
+L zglue-gem1-adapter:GND #PWR01
 U 1 1 5D928CFA
 P 1850 3300
 F 0 "#PWR01" H 1850 3050 50  0001 C CNN
@@ -409,7 +411,7 @@ Wire Wire Line
 Text Label 1950 3200 0    50   ~ 0
 PC_RDY
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP4
+L zglue-gem1-adapter:TP_SMD1MM TP4
 U 1 1 5D92BE5C
 P 1850 3200
 F 0 "TP4" V 1850 3100 50  0000 C CNN
@@ -424,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 6150 4950 6150
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP12
+L zglue-gem1-adapter:TP_SMD1MM TP12
 U 1 1 5D935A2A
 P 5050 6150
 F 0 "TP12" V 5050 6000 50  0000 C CNN
@@ -439,7 +441,7 @@ Wire Wire Line
 Text Label 4550 5650 0    50   ~ 0
 SYS_CLK
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP17
+L zglue-gem1-adapter:TP_SMD1MM TP17
 U 1 1 5D9390AB
 P 5100 5650
 F 0 "TP17" V 5100 5500 50  0000 C CNN
@@ -474,7 +476,7 @@ USB_D_P
 Text Label 4550 6150 0    50   ~ 0
 ULPM_WAKE
 $Comp
-L zglue-dragon-adapter:GND #PWR07
+L zglue-gem1-adapter:GND #PWR07
 U 1 1 5D947939
 P 2400 6750
 F 0 "#PWR07" H 2400 6500 50  0001 C CNN
@@ -511,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 5900 1950 5900
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP9
+L zglue-gem1-adapter:TP_SMD1MM TP9
 U 1 1 5D971A5D
 P 1850 5800
 F 0 "TP9" V 1850 5650 50  0000 C CNN
@@ -522,7 +524,7 @@ F 3 "" H 2050 6100 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP10
+L zglue-gem1-adapter:TP_SMD1MM TP10
 U 1 1 5D971AC3
 P 1850 5900
 F 0 "TP10" V 1850 5750 50  0000 C CNN
@@ -533,7 +535,7 @@ F 3 "" H 2050 6200 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP11
+L zglue-gem1-adapter:TP_SMD1MM TP11
 U 1 1 5D971AF5
 P 1850 6000
 F 0 "TP11" V 1850 5850 50  0000 C CNN
@@ -544,7 +546,7 @@ F 3 "" H 2050 6300 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR02
+L zglue-gem1-adapter:GND #PWR02
 U 1 1 5D971BCB
 P 1850 3900
 F 0 "#PWR02" H 1850 3650 50  0001 C CNN
@@ -567,83 +569,83 @@ PIO2
 Text Label 1950 6000 0    50   ~ 0
 PIO1
 $Comp
-L zglue-dragon-adapter:R_100R_0402 R12
+L zglue-gem1-adapter:R_100R_0402 R12
 U 1 1 5D984F07
-P 6900 8100
-F 0 "R12" V 6855 8170 60  0000 L CNN
-F 1 "R_100R_0402" H 6900 7950 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 7100 8300 60  0001 L CNN
-F 3 "" H 6900 8100 50  0001 C CNN
-F 4 "BOURNS" H 7100 8500 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 7100 8400 60  0001 L CNN "MPN"
-F 6 "100R" V 6953 8170 50  0000 L CNN "Val"
-	1    6900 8100
+P 8800 8450
+F 0 "R12" V 8755 8520 60  0000 L CNN
+F 1 "R_100R_0402" H 8800 8300 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9000 8650 60  0001 L CNN
+F 3 "" H 8800 8450 50  0001 C CNN
+F 4 "BOURNS" H 9000 8850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 9000 8750 60  0001 L CNN "MPN"
+F 6 "100R" V 8853 8520 50  0000 L CNN "Val"
+	1    8800 8450
 	0    1    1    0   
 $EndComp
-Text Label 6350 7950 0    50   ~ 0
+Text Label 8250 8300 0    50   ~ 0
 CSI_D1_FP_P
-Text Label 6350 8250 0    50   ~ 0
+Text Label 8250 8600 0    50   ~ 0
 CSI_D1_FP_N
-Text Label 7200 7950 0    50   ~ 0
+Text Label 9100 8300 0    50   ~ 0
 CSI_D2_FP_P
-Text Label 7200 8250 0    50   ~ 0
+Text Label 9100 8600 0    50   ~ 0
 CSI_D2_FP_N
-Text Label 8100 7950 0    50   ~ 0
+Text Label 10000 8300 0    50   ~ 0
 CSI_CLK_FP_P
-Text Label 8100 8250 0    50   ~ 0
+Text Label 10000 8600 0    50   ~ 0
 CSI_CLK_FP_N
 Wire Wire Line
-	6900 7950 6350 7950
+	8800 8300 8250 8300
 Wire Wire Line
-	6900 8250 6350 8250
+	8800 8600 8250 8600
 $Comp
-L zglue-dragon-adapter:R_100R_0402 R14
+L zglue-gem1-adapter:R_100R_0402 R14
 U 1 1 5D998CAA
-P 7800 8100
-F 0 "R14" V 7755 8170 60  0000 L CNN
-F 1 "R_100R_0402" H 7800 7950 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8000 8300 60  0001 L CNN
-F 3 "" H 7800 8100 50  0001 C CNN
-F 4 "BOURNS" H 8000 8500 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 8000 8400 60  0001 L CNN "MPN"
-F 6 "100R" V 7853 8170 50  0000 L CNN "Val"
-	1    7800 8100
+P 9700 8450
+F 0 "R14" V 9655 8520 60  0000 L CNN
+F 1 "R_100R_0402" H 9700 8300 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9900 8650 60  0001 L CNN
+F 3 "" H 9700 8450 50  0001 C CNN
+F 4 "BOURNS" H 9900 8850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 9900 8750 60  0001 L CNN "MPN"
+F 6 "100R" V 9753 8520 50  0000 L CNN "Val"
+	1    9700 8450
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_100R_0402 R23
+L zglue-gem1-adapter:R_100R_0402 R23
 U 1 1 5D998D12
-P 8700 8100
-F 0 "R23" V 8655 8170 60  0000 L CNN
-F 1 "R_100R_0402" H 8700 7950 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8900 8300 60  0001 L CNN
-F 3 "" H 8700 8100 50  0001 C CNN
-F 4 "BOURNS" H 8900 8500 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 8900 8400 60  0001 L CNN "MPN"
-F 6 "100R" V 8753 8170 50  0000 L CNN "Val"
-	1    8700 8100
+P 10600 8450
+F 0 "R23" V 10555 8520 60  0000 L CNN
+F 1 "R_100R_0402" H 10600 8300 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 10800 8650 60  0001 L CNN
+F 3 "" H 10600 8450 50  0001 C CNN
+F 4 "BOURNS" H 10800 8850 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 10800 8750 60  0001 L CNN "MPN"
+F 6 "100R" V 10653 8520 50  0000 L CNN "Val"
+	1    10600 8450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7800 8250 7200 8250
+	9700 8600 9100 8600
 Wire Wire Line
-	7800 7950 7200 7950
+	9700 8300 9100 8300
 Wire Wire Line
-	8700 7950 8100 7950
+	10600 8300 10000 8300
 Wire Wire Line
-	8700 8250 8100 8250
+	10600 8600 10000 8600
 Text Label 2750 8050 0    50   ~ 0
 3V3_SYS
 Text Label 1200 8750 0    50   ~ 0
 1V8
 Text Label 1200 10450 0    50   ~ 0
 1V2
-Text Notes 6350 7550 0    79   ~ 16
-MIPI termination
+Text Notes 8200 7600 0    79   ~ 16
+Configuration resistors
 Text Notes 1550 800  0    79   ~ 16
-Dragon chip
+GEM1 chip
 $Comp
-L zglue-dragon-adapter:C_10u_0402 C1
+L zglue-gem1-adapter:C_10u_0402 C1
 U 1 1 5DA0000B
 P 1450 8200
 F 0 "C1" H 1565 8245 60  0000 L CNN
@@ -657,7 +659,7 @@ F 6 "10u" H 1565 8147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C5
+L zglue-gem1-adapter:C_100n_0402_6V3 C5
 U 1 1 5DA00317
 P 2500 8200
 F 0 "C5" H 2615 8245 60  0000 L CNN
@@ -671,7 +673,7 @@ F 6 "100n" H 2615 8147 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR03
+L zglue-gem1-adapter:GND #PWR03
 U 1 1 5DA0044B
 P 1450 8350
 F 0 "#PWR03" H 1450 8100 50  0001 C CNN
@@ -682,7 +684,7 @@ F 3 "" H 1450 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR08
+L zglue-gem1-adapter:GND #PWR08
 U 1 1 5DA004B2
 P 2500 8350
 F 0 "#PWR08" H 2500 8100 50  0001 C CNN
@@ -693,7 +695,7 @@ F 3 "" H 2500 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R1
+L zglue-gem1-adapter:R_0R_0402 R1
 U 1 1 5DA005FB
 P 1650 8050
 F 0 "R1" H 1650 8263 60  0000 C CNN
@@ -706,11 +708,6 @@ F 6 "0R" H 1650 8165 50  0000 C CNN "Val"
 	1    1650 8050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 8050 3050 8050
-Connection ~ 2500 8050
-Wire Wire Line
-	1500 8050 1450 8050
 Text Label 1200 8050 0    50   ~ 0
 3V3
 Text Notes 1200 7550 0    79   ~ 16
@@ -718,7 +715,7 @@ Voltage filtering
 Text Label 2750 8750 0    50   ~ 0
 1V8_SYS
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C6
+L zglue-gem1-adapter:C_100n_0402_6V3 C6
 U 1 1 5DA29CBF
 P 2500 8900
 F 0 "C6" H 2615 8945 60  0000 L CNN
@@ -732,7 +729,7 @@ F 6 "100n" H 2615 8847 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR04
+L zglue-gem1-adapter:GND #PWR04
 U 1 1 5DA29CC6
 P 1450 9050
 F 0 "#PWR04" H 1450 8800 50  0001 C CNN
@@ -743,7 +740,7 @@ F 3 "" H 1450 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR09
+L zglue-gem1-adapter:GND #PWR09
 U 1 1 5DA29CCC
 P 2500 9050
 F 0 "#PWR09" H 2500 8800 50  0001 C CNN
@@ -754,7 +751,7 @@ F 3 "" H 2500 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R2
+L zglue-gem1-adapter:R_0R_0402 R2
 U 1 1 5DA29CD5
 P 1650 8750
 F 0 "R2" H 1650 8963 60  0000 C CNN
@@ -767,13 +764,8 @@ F 6 "0R" H 1650 8865 50  0000 C CNN "Val"
 	1    1650 8750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 8750 3050 8750
-Connection ~ 2500 8750
-Wire Wire Line
-	1500 8750 1450 8750
 $Comp
-L zglue-dragon-adapter:C_2u2_0402 C2
+L zglue-gem1-adapter:C_2u2_0402 C2
 U 1 1 5DA30683
 P 1450 8900
 F 0 "C2" H 1565 8945 60  0000 L CNN
@@ -787,7 +779,7 @@ F 6 "2u2" H 1565 8847 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C8
+L zglue-gem1-adapter:C_100n_0402_6V3 C8
 U 1 1 5DA307E8
 P 3350 10650
 F 0 "C8" H 3465 10695 60  0000 L CNN
@@ -801,7 +793,7 @@ F 6 "100n" H 3465 10597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR06
+L zglue-gem1-adapter:GND #PWR06
 U 1 1 5DA307EF
 P 1450 10750
 F 0 "#PWR06" H 1450 10500 50  0001 C CNN
@@ -812,7 +804,7 @@ F 3 "" H 1450 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R4
+L zglue-gem1-adapter:R_0R_0402 R4
 U 1 1 5DA307FE
 P 1650 10450
 F 0 "R4" H 1650 10663 60  0000 C CNN
@@ -825,10 +817,8 @@ F 6 "0R" H 1650 10565 50  0000 C CNN "Val"
 	1    1650 10450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 10450 1450 10450
 $Comp
-L zglue-dragon-adapter:C_2u2_0402 C4
+L zglue-gem1-adapter:C_2u2_0402 C4
 U 1 1 5DA3080C
 P 1450 10600
 F 0 "C4" H 1565 10645 60  0000 L CNN
@@ -842,7 +832,7 @@ F 6 "2u2" H 1565 10547 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C9
+L zglue-gem1-adapter:C_100n_0402_6V3 C9
 U 1 1 5DA37CD2
 P 3750 10650
 F 0 "C9" H 3865 10695 60  0000 L CNN
@@ -856,7 +846,7 @@ F 6 "100n" H 3865 10597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R5
+L zglue-gem1-adapter:R_0R_0402 R5
 U 1 1 5DA37D7F
 P 3050 10250
 F 0 "R5" H 3000 10350 60  0000 C CNN
@@ -870,7 +860,7 @@ F 6 "0R" H 3150 10350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R6
+L zglue-gem1-adapter:R_0R_0402 R6
 U 1 1 5DA37E2F
 P 3050 10450
 F 0 "R6" H 3000 10550 60  0000 C CNN
@@ -895,7 +885,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 10450 3350 10450
 $Comp
-L zglue-dragon-adapter:GND #PWR011
+L zglue-gem1-adapter:GND #PWR011
 U 1 1 5DA7B022
 P 3350 10800
 F 0 "#PWR011" H 3350 10550 50  0001 C CNN
@@ -906,7 +896,7 @@ F 3 "" H 3350 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR012
+L zglue-gem1-adapter:GND #PWR012
 U 1 1 5DA7B06F
 P 3750 10800
 F 0 "#PWR012" H 3750 10550 50  0001 C CNN
@@ -935,7 +925,7 @@ Text Label 4000 10450 0    50   ~ 0
 Text Label 4850 10450 0    50   ~ 0
 1V2_SYS
 $Comp
-L zglue-dragon-adapter:R_100R_0402 R9
+L zglue-gem1-adapter:R_100R_0402 R9
 U 1 1 5DAD7DDD
 P 5450 10200
 F 0 "R9" H 5400 10300 60  0000 C CNN
@@ -949,7 +939,7 @@ F 6 "100R" H 5600 10300 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_100R_0402 R10
+L zglue-gem1-adapter:R_100R_0402 R10
 U 1 1 5DAD7E79
 P 5450 10450
 F 0 "R10" H 5400 10550 60  0000 C CNN
@@ -976,7 +966,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 10200 5200 10200
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C12
+L zglue-gem1-adapter:C_100n_0402_6V3 C12
 U 1 1 5DB184A0
 P 5750 10700
 F 0 "C12" H 5865 10745 60  0000 L CNN
@@ -990,7 +980,7 @@ F 6 "100n" H 5865 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C14
+L zglue-gem1-adapter:C_100n_0402_6V3 C14
 U 1 1 5DB185A4
 P 6500 10700
 F 0 "C14" H 6615 10745 60  0000 L CNN
@@ -1004,7 +994,7 @@ F 6 "100n" H 6615 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:C_10n_0402 C13
+L zglue-gem1-adapter:C_10n_0402 C13
 U 1 1 5DB2894E
 P 6150 10700
 F 0 "C13" H 6265 10745 60  0000 L CNN
@@ -1018,7 +1008,7 @@ F 6 "10n" H 6265 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:C_10n_0402 C15
+L zglue-gem1-adapter:C_10n_0402 C15
 U 1 1 5DB289F4
 P 6900 10700
 F 0 "C15" H 7015 10745 60  0000 L CNN
@@ -1032,7 +1022,7 @@ F 6 "10n" H 7015 10647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR015
+L zglue-gem1-adapter:GND #PWR015
 U 1 1 5DB28A9A
 P 5750 10850
 F 0 "#PWR015" H 5750 10600 50  0001 C CNN
@@ -1043,7 +1033,7 @@ F 3 "" H 5750 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR016
+L zglue-gem1-adapter:GND #PWR016
 U 1 1 5DB28AF3
 P 6150 10850
 F 0 "#PWR016" H 6150 10600 50  0001 C CNN
@@ -1054,7 +1044,7 @@ F 3 "" H 6150 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR017
+L zglue-gem1-adapter:GND #PWR017
 U 1 1 5DB28B4C
 P 6500 10850
 F 0 "#PWR017" H 6500 10600 50  0001 C CNN
@@ -1065,7 +1055,7 @@ F 3 "" H 6500 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR019
+L zglue-gem1-adapter:GND #PWR019
 U 1 1 5DB28BA5
 P 6900 10850
 F 0 "#PWR019" H 6900 10600 50  0001 C CNN
@@ -1104,7 +1094,7 @@ Text Label 1200 9500 0    50   ~ 0
 Text Label 2750 9500 0    50   ~ 0
 2V5_SYS
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C7
+L zglue-gem1-adapter:C_100n_0402_6V3 C7
 U 1 1 5DB84A77
 P 2500 9650
 F 0 "C7" H 2615 9695 60  0000 L CNN
@@ -1118,7 +1108,7 @@ F 6 "100n" H 2615 9597 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR05
+L zglue-gem1-adapter:GND #PWR05
 U 1 1 5DB84A7E
 P 1450 9800
 F 0 "#PWR05" H 1450 9550 50  0001 C CNN
@@ -1129,7 +1119,7 @@ F 3 "" H 1450 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR010
+L zglue-gem1-adapter:GND #PWR010
 U 1 1 5DB84A84
 P 2500 9800
 F 0 "#PWR010" H 2500 9550 50  0001 C CNN
@@ -1140,7 +1130,7 @@ F 3 "" H 2500 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R3
+L zglue-gem1-adapter:R_0R_0402 R3
 U 1 1 5DB84A8D
 P 1650 9500
 F 0 "R3" H 1650 9713 60  0000 C CNN
@@ -1153,13 +1143,8 @@ F 6 "0R" H 1650 9615 50  0000 C CNN "Val"
 	1    1650 9500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 9500 3050 9500
-Connection ~ 2500 9500
-Wire Wire Line
-	1500 9500 1450 9500
 $Comp
-L zglue-dragon-adapter:C_2u2_0402 C3
+L zglue-gem1-adapter:C_2u2_0402 C3
 U 1 1 5DB84A9B
 P 1450 9650
 F 0 "C3" H 1565 9695 60  0000 L CNN
@@ -1172,37 +1157,37 @@ F 6 "2u2" H 1565 9597 50  0000 L CNN "Val"
 	1    1450 9650
 	1    0    0    -1  
 $EndComp
-Text Label 6350 8500 0    50   ~ 0
+Text Label 8250 8850 0    50   ~ 0
 CSI_OE
 $Comp
-L zglue-dragon-adapter:R_10k_0402 R13
+L zglue-gem1-adapter:R_10k_0402 R13
 U 1 1 5DBA0BF8
-P 6900 8650
-F 0 "R13" V 6855 8720 60  0000 L CNN
-F 1 "R_10k_0402" H 6900 8500 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 7100 8850 60  0001 L CNN
-F 3 "" H 6900 8650 50  0001 C CNN
-F 4 "VISHAY" H 7100 9050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 7100 8950 60  0001 L CNN "MPN"
-F 6 "10k" V 6953 8720 50  0000 L CNN "Val"
-	1    6900 8650
+P 8800 9000
+F 0 "R13" V 8755 9070 60  0000 L CNN
+F 1 "R_10k_0402" H 8800 8850 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9000 9200 60  0001 L CNN
+F 3 "" H 8800 9000 50  0001 C CNN
+F 4 "VISHAY" H 9000 9400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9000 9300 60  0001 L CNN "MPN"
+F 6 "10k" V 8853 9070 50  0000 L CNN "Val"
+	1    8800 9000
 	0    1    1    0   
 $EndComp
 $Comp
-L zglue-dragon-adapter:GND #PWR018
+L zglue-gem1-adapter:GND #PWR018
 U 1 1 5DBA0ED8
-P 6900 8800
-F 0 "#PWR018" H 6900 8550 50  0001 C CNN
-F 1 "GND" H 6905 8627 50  0000 C CNN
-F 2 "" H 6900 8800 50  0001 C CNN
-F 3 "" H 6900 8800 50  0001 C CNN
-	1    6900 8800
+P 8800 9150
+F 0 "#PWR018" H 8800 8900 50  0001 C CNN
+F 1 "GND" H 8805 8977 50  0000 C CNN
+F 2 "" H 8800 9150 50  0001 C CNN
+F 3 "" H 8800 9150 50  0001 C CNN
+	1    8800 9150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 8500 6350 8500
+	8800 8850 8250 8850
 $Comp
-L zglue-dragon-adapter:GND #PWR014
+L zglue-gem1-adapter:GND #PWR014
 U 1 1 5DBB37C8
 P 5000 8500
 F 0 "#PWR014" H 5000 8250 50  0001 C CNN
@@ -1215,7 +1200,7 @@ $EndComp
 Text Label 3600 8050 0    50   ~ 0
 VUSB
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C11
+L zglue-gem1-adapter:C_100n_0402_6V3 C11
 U 1 1 5DBBCE74
 P 5000 8350
 F 0 "C11" H 5115 8395 60  0000 L CNN
@@ -1229,7 +1214,7 @@ F 6 "100n" H 5115 8297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R7
+L zglue-gem1-adapter:R_0R_0402 R7
 U 1 1 5DBC635C
 P 4200 7850
 F 0 "R7" H 4150 7950 60  0000 C CNN
@@ -1243,7 +1228,7 @@ F 6 "0R" H 4300 7950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R8
+L zglue-gem1-adapter:R_0R_0402 R8
 U 1 1 5DBC6690
 P 4200 8050
 F 0 "R8" H 4150 8150 60  0000 C CNN
@@ -1268,7 +1253,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 8050 4550 8050
 $Comp
-L zglue-dragon-adapter:GND #PWR013
+L zglue-gem1-adapter:GND #PWR013
 U 1 1 5DBFF3AE
 P 4550 8500
 F 0 "#PWR013" H 4550 8250 50  0001 C CNN
@@ -1279,7 +1264,7 @@ F 3 "" H 4550 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-dragon-adapter:C_100n_0402_6V3 C10
+L zglue-gem1-adapter:C_100n_0402_6V3 C10
 U 1 1 5DBFF3B7
 P 4550 8350
 F 0 "C10" H 4250 8400 60  0000 L CNN
@@ -1306,613 +1291,212 @@ Wire Wire Line
 	5000 7850 5400 7850
 Text Label 1950 4000 0    50   ~ 0
 VBATH
-Text Label 12650 1650 0    50   ~ 0
-CSI_CLK_OUT_P
-Text Label 12650 1750 0    50   ~ 0
-CSI_CLK_OUT_N
-Text Label 12650 1950 0    50   ~ 0
-CSI_D1_OUT_P
-Text Label 12650 2050 0    50   ~ 0
-CSI_D1_OUT_N
-Text Label 12650 2250 0    50   ~ 0
-CSI_D2_OUT_P
-Text Label 12650 2350 0    50   ~ 0
-CSI_D2_OUT_N
-Text Label 12650 2550 0    50   ~ 0
-CSI_D3_OUT_P
-Text Label 12650 2650 0    50   ~ 0
-CSI_D3_OUT_N
-Text Label 12650 2850 0    50   ~ 0
-CSI_D4_OUT_P
-Text Label 12650 2950 0    50   ~ 0
-CSI_D4_OUT_N
-Text Label 7900 1650 0    50   ~ 0
-CSI_CLK_IN_P
-Text Label 7900 1750 0    50   ~ 0
-CSI_CLK_IN_N
-Text Label 7900 1950 0    50   ~ 0
-CSI_D1_IN_P
-Text Label 7900 2050 0    50   ~ 0
-CSI_D1_IN_N
-Text Label 7900 2250 0    50   ~ 0
-CSI_D2_IN_P
-Text Label 7900 2350 0    50   ~ 0
-CSI_D2_IN_N
-Text Label 7900 2550 0    50   ~ 0
-CSI_D3_IN_P
-Text Label 7900 2650 0    50   ~ 0
-CSI_D3_IN_N
-Text Label 7900 2850 0    50   ~ 0
-CSI_D4_IN_P
-Text Label 7900 2950 0    50   ~ 0
-CSI_D4_IN_N
-Text Label 9500 1550 0    50   ~ 0
-TDI
-Text Label 9500 1650 0    50   ~ 0
-TDO
-Text Label 9500 1750 0    50   ~ 0
-TMS
-Text Label 9500 1850 0    50   ~ 0
-TCK
-Text Label 9500 2250 0    50   ~ 0
-PWR_BTN
-Text Label 12650 3250 0    50   ~ 0
-PROC_OUT_0
-Text Label 12650 3350 0    50   ~ 0
-PROC_OUT_1
-Text Label 12650 3450 0    50   ~ 0
-PROC_OUT_2
-Text Label 10850 1550 0    50   ~ 0
-E_PROC_RST
-Text Label 10850 1650 0    50   ~ 0
-E_PROC_SI
-Text Label 10850 1750 0    50   ~ 0
-E_PROC_SO
-Text Label 10850 1850 0    50   ~ 0
-E_PROC_SCK
-Text Label 10850 1950 0    50   ~ 0
-E_PROC_SS
-Text Label 10850 2150 0    50   ~ 0
-CTRL_RST_FLASH_SOC_CS
-Text Label 7900 5800 0    50   ~ 0
+Text Label 8300 6000 0    50   ~ 0
 CTRL_SI
-Text Label 7900 5950 0    50   ~ 0
+Text Label 8300 6150 0    50   ~ 0
 CTRL_SO
-Text Label 7900 6100 0    50   ~ 0
+Text Label 8300 6300 0    50   ~ 0
 CTRL_SCK
-Text Label 7900 6250 0    50   ~ 0
+Text Label 8300 6450 0    50   ~ 0
 CTRL_SS
-Text Label 9500 2050 0    50   ~ 0
-DBG_RX
-Text Label 9500 1950 0    50   ~ 0
-DBG_TX
-Text Label 12650 3150 0    50   ~ 0
-CTRL_OUT
-Text Label 10850 2750 0    50   ~ 0
-DONE
-Text Label 9850 7950 0    50   ~ 0
+Text Label 11750 8300 0    50   ~ 0
 USB_DET
-Text Label 7900 3250 0    50   ~ 0
-USB_D_N
-Text Label 7900 3150 0    50   ~ 0
-USB_D_P
-Text Label 9500 2750 0    50   ~ 0
-I2C_0_SCL
-Text Label 9500 2850 0    50   ~ 0
-I2C_0_SDA
-Text Label 9500 2950 0    50   ~ 0
-I2C_1_SCL
-Text Label 9500 3050 0    50   ~ 0
-I2C_1_SDA
 Text Label 5100 8050 0    50   ~ 0
 VDDANA
 Text Label 5100 7850 0    50   ~ 0
 VBATH
-Text Label 7900 3450 0    50   ~ 0
-VUSB
-Text Label 9500 3450 0    50   ~ 0
-3V3_SYS
-Text Label 9500 3250 0    50   ~ 0
-1V8_SYS
-Text Label 9500 3350 0    50   ~ 0
-2V5_SYS
-Text Label 9500 3150 0    50   ~ 0
-1V2_SYS
 $Comp
-L zglue-dragon-adapter:R_1k5_0402 R11
+L zglue-gem1-adapter:R_1k5_0402 R11
 U 1 1 5DCE918C
-P 9650 8100
-F 0 "R11" V 9600 7850 60  0000 L CNN
-F 1 "R_1k5_0402" H 9650 7950 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 9850 8300 60  0001 L CNN
-F 3 "" H 9650 8100 50  0001 C CNN
-F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 9850 8500 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2RKF1501X" H 9850 8400 60  0001 L CNN "MPN"
-F 6 "1k5" V 9700 7850 50  0000 L CNN "Val"
-	1    9650 8100
+P 11550 8450
+F 0 "R11" V 11500 8200 60  0000 L CNN
+F 1 "R_1k5_0402" H 11550 8300 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 11750 8650 60  0001 L CNN
+F 3 "" H 11550 8450 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 11750 8850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2RKF1501X" H 11750 8750 60  0001 L CNN "MPN"
+F 6 "1k5" V 11600 8200 50  0000 L CNN "Val"
+	1    11550 8450
 	0    1    1    0   
 $EndComp
-Text Label 9850 8250 0    50   ~ 0
+Text Label 11750 8600 0    50   ~ 0
 USB_D_P
 Wire Wire Line
-	9650 7950 10200 7950
+	11550 8300 12100 8300
 Wire Wire Line
-	9650 8250 10200 8250
-Text Notes 8800 1400 0    50   ~ 0
-Mating - 556500488
+	11550 8600 12100 8600
 $Comp
-L zglue-dragon-adapter:543630489 J1
-U 1 1 5DD17041
-P 8900 1300
-F 0 "J1" H 8900 1450 50  0000 C CNN
-F 1 "543630489" H 9050 1350 50  0000 C CNN
-F 2 "zglue-dragon-adapter-footprints:543630489" H 8650 -1050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9150 -1000 50  0001 C CNN
-F 4 "543630489" H 0   0   50  0001 C CNN "MPN"
-F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
-	1    8900 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 1550 8750 1550
-Wire Wire Line
-	8750 1550 8750 1850
-$Comp
-L zglue-dragon-adapter:GND #PWR020
-U 1 1 5DD41DEC
-P 8750 3650
-F 0 "#PWR020" H 8750 3400 50  0001 C CNN
-F 1 "GND" H 8755 3477 50  0000 C CNN
-F 2 "" H 8750 3650 50  0001 C CNN
-F 3 "" H 8750 3650 50  0001 C CNN
-	1    8750 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L zglue-dragon-adapter:GND #PWR021
-U 1 1 5DD4C734
-P 9300 3650
-F 0 "#PWR021" H 9300 3400 50  0001 C CNN
-F 1 "GND" H 9305 3477 50  0000 C CNN
-F 2 "" H 9300 3650 50  0001 C CNN
-F 3 "" H 9300 3650 50  0001 C CNN
-	1    9300 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 1650 7900 1650
-Wire Wire Line
-	8800 1750 7900 1750
-Wire Wire Line
-	8800 1850 8750 1850
-Connection ~ 8750 1850
-Wire Wire Line
-	8750 1850 8750 2150
-Wire Wire Line
-	8800 1950 7900 1950
-Wire Wire Line
-	8800 2050 7900 2050
-Wire Wire Line
-	8800 2150 8750 2150
-Connection ~ 8750 2150
-Wire Wire Line
-	8750 2150 8750 2450
-Wire Wire Line
-	8800 2250 7900 2250
-Wire Wire Line
-	8800 2350 7900 2350
-Wire Wire Line
-	8800 2450 8750 2450
-Connection ~ 8750 2450
-Wire Wire Line
-	8750 2450 8750 2750
-Wire Wire Line
-	8800 2550 7900 2550
-Wire Wire Line
-	8800 2650 7900 2650
-Wire Wire Line
-	8800 2750 8750 2750
-Connection ~ 8750 2750
-Wire Wire Line
-	8750 2750 8750 3050
-Wire Wire Line
-	8800 2850 7900 2850
-Wire Wire Line
-	8800 2950 7900 2950
-Wire Wire Line
-	8800 3050 8750 3050
-Connection ~ 8750 3050
-Wire Wire Line
-	8750 3050 8750 3650
-Wire Wire Line
-	9250 2150 9300 2150
-Wire Wire Line
-	9300 2150 9300 2650
-Wire Wire Line
-	9250 1650 10050 1650
-Wire Wire Line
-	9250 1750 10050 1750
-Text Label 7900 3350 0    50   ~ 0
-VUSB
-Wire Wire Line
-	9250 1950 10050 1950
-Wire Wire Line
-	9250 2050 10050 2050
-Wire Wire Line
-	9250 2250 10050 2250
-Wire Wire Line
-	9250 2350 10050 2350
-Wire Wire Line
-	9250 1550 10050 1550
-Wire Wire Line
-	9250 2450 10050 2450
-Wire Wire Line
-	9250 2550 10050 2550
-Wire Wire Line
-	9250 2650 9300 2650
-Connection ~ 9300 2650
-Wire Wire Line
-	9300 2650 9300 3650
-Wire Wire Line
-	9250 2750 10050 2750
-Wire Wire Line
-	9250 2850 10050 2850
-Wire Wire Line
-	9250 2950 10050 2950
-Wire Wire Line
-	9250 3050 10050 3050
-Wire Wire Line
-	9250 3150 10050 3150
-Wire Wire Line
-	9250 3250 10050 3250
-Wire Wire Line
-	9250 3350 10050 3350
-Wire Wire Line
-	9250 3450 10050 3450
-Text Notes 7900 800  0    79   ~ 16
-Baseboard connectors
-Wire Wire Line
-	13200 1650 12300 1650
-$Comp
-L zglue-dragon-adapter:GND #PWR023
-U 1 1 5E03411C
-P 12350 3550
-F 0 "#PWR023" H 12350 3300 50  0001 C CNN
-F 1 "GND" H 12355 3377 50  0000 C CNN
-F 2 "" H 12350 3550 50  0001 C CNN
-F 3 "" H 12350 3550 50  0001 C CNN
-	1    12350 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13200 1750 12300 1750
-Wire Wire Line
-	13200 1950 12300 1950
-Wire Wire Line
-	13200 2050 12300 2050
-Wire Wire Line
-	13200 2250 12300 2250
-Wire Wire Line
-	13200 2350 12300 2350
-Wire Wire Line
-	13200 2550 12300 2550
-Wire Wire Line
-	13200 2650 12300 2650
-Wire Wire Line
-	13200 2850 12300 2850
-Wire Wire Line
-	13200 2950 12300 2950
-Wire Wire Line
-	8800 3150 7900 3150
-Wire Wire Line
-	8800 3250 7900 3250
-Wire Wire Line
-	8800 3350 7900 3350
-Wire Wire Line
-	8800 3450 7900 3450
-Wire Wire Line
-	9250 1850 10050 1850
-Wire Wire Line
-	12350 3550 12350 3050
-Wire Wire Line
-	12350 1550 12300 1550
-Wire Wire Line
-	12300 1850 12350 1850
-Connection ~ 12350 1850
-Wire Wire Line
-	12350 1850 12350 1550
-Wire Wire Line
-	12300 2150 12350 2150
-Connection ~ 12350 2150
-Wire Wire Line
-	12350 2150 12350 1850
-Wire Wire Line
-	12300 2450 12350 2450
-Connection ~ 12350 2450
-Wire Wire Line
-	12350 2450 12350 2150
-Wire Wire Line
-	12300 2750 12350 2750
-Connection ~ 12350 2750
-Wire Wire Line
-	12350 2750 12350 2450
-Wire Wire Line
-	12300 3050 12350 3050
-Connection ~ 12350 3050
-Wire Wire Line
-	12350 3050 12350 2750
-Wire Wire Line
-	12300 3150 13200 3150
-Wire Wire Line
-	12300 3250 13200 3250
-Wire Wire Line
-	12300 3350 13200 3350
-Wire Wire Line
-	12300 3450 13200 3450
-Wire Wire Line
-	11850 1550 10850 1550
-Wire Wire Line
-	11850 1650 10850 1650
-Wire Wire Line
-	11850 1750 10850 1750
-Wire Wire Line
-	11850 1850 10850 1850
-$Comp
-L zglue-dragon-adapter:GND #PWR022
-U 1 1 5E378B12
-P 11800 3550
-F 0 "#PWR022" H 11800 3300 50  0001 C CNN
-F 1 "GND" H 11805 3377 50  0000 C CNN
-F 2 "" H 11800 3550 50  0001 C CNN
-F 3 "" H 11800 3550 50  0001 C CNN
-	1    11800 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L zglue-dragon-adapter:543630489 J2
-U 1 1 5DD17377
-P 11950 1300
-F 0 "J2" H 11850 1450 50  0000 C CNN
-F 1 "543630489" H 12050 1350 50  0000 C CNN
-F 2 "zglue-dragon-adapter-footprints:543630489" H 11700 -1050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 12200 -1000 50  0001 C CNN
-F 4 "543630489" H 0   0   50  0001 C CNN "MPN"
-F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
-	1    11950 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11800 2050 11800 2650
-Wire Wire Line
-	11850 1950 10850 1950
-Wire Wire Line
-	11850 2050 11800 2050
-Wire Wire Line
-	11850 2150 10850 2150
-Wire Wire Line
-	11850 2250 10850 2250
-Wire Wire Line
-	11850 2350 10850 2350
-Wire Wire Line
-	11850 2450 10850 2450
-Wire Wire Line
-	11850 2550 10850 2550
-$Comp
-L zglue-dragon-adapter:R_0R_0402 R15
+L zglue-gem1-adapter:R_0R_0402 R15
 U 1 1 5E427308
-P 8600 4800
-F 0 "R15" H 8800 4850 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 4650 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5000 60  0001 L CNN
-F 3 "" H 8600 4800 50  0001 C CNN
-F 4 "PANASONIC" H 8800 5200 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 5100 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 4850 50  0000 C CNN "Val"
-	1    8600 4800
+P 9000 5000
+F 0 "R15" H 9200 5050 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 4850 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 5200 60  0001 L CNN
+F 3 "" H 9000 5000 50  0001 C CNN
+F 4 "PANASONIC" H 9200 5400 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 5300 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 5050 50  0000 C CNN "Val"
+	1    9000 5000
 	1    0    0    -1  
 $EndComp
-Text Label 7900 4800 0    50   ~ 0
+Text Label 8300 5000 0    50   ~ 0
 PROC_SI
-Text Label 7900 4950 0    50   ~ 0
+Text Label 8300 5150 0    50   ~ 0
 PROC_SO
-Text Label 7900 5100 0    50   ~ 0
+Text Label 8300 5300 0    50   ~ 0
 PROC_SCK
-Text Label 7900 5250 0    50   ~ 0
+Text Label 8300 5450 0    50   ~ 0
 PROC_SS
 Wire Wire Line
-	7900 4800 8450 4800
+	8300 5000 8850 5000
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R16
+L zglue-gem1-adapter:R_0R_0402 R16
 U 1 1 5E4A2EF4
-P 8600 4950
-F 0 "R16" H 8800 5000 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 4800 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5150 60  0001 L CNN
-F 3 "" H 8600 4950 50  0001 C CNN
-F 4 "PANASONIC" H 8800 5350 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 5250 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 5000 50  0000 C CNN "Val"
-	1    8600 4950
+P 9000 5150
+F 0 "R16" H 9200 5200 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 5000 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 5350 60  0001 L CNN
+F 3 "" H 9000 5150 50  0001 C CNN
+F 4 "PANASONIC" H 9200 5550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 5450 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 5200 50  0000 C CNN "Val"
+	1    9000 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 4950 8450 4950
+	8300 5150 8850 5150
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R17
+L zglue-gem1-adapter:R_0R_0402 R17
 U 1 1 5E4B81FF
-P 8600 5100
-F 0 "R17" H 8800 5150 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 4950 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5300 60  0001 L CNN
-F 3 "" H 8600 5100 50  0001 C CNN
-F 4 "PANASONIC" H 8800 5500 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 5400 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 5150 50  0000 C CNN "Val"
-	1    8600 5100
+P 9000 5300
+F 0 "R17" H 9200 5350 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 5150 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 5500 60  0001 L CNN
+F 3 "" H 9000 5300 50  0001 C CNN
+F 4 "PANASONIC" H 9200 5700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 5600 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 5350 50  0000 C CNN "Val"
+	1    9000 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 5100 8450 5100
+	8300 5300 8850 5300
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R18
+L zglue-gem1-adapter:R_0R_0402 R18
 U 1 1 5E4CDB99
-P 8600 5250
-F 0 "R18" H 8800 5300 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 5100 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5450 60  0001 L CNN
-F 3 "" H 8600 5250 50  0001 C CNN
-F 4 "PANASONIC" H 8800 5650 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 5550 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 5300 50  0000 C CNN "Val"
-	1    8600 5250
+P 9000 5450
+F 0 "R18" H 9200 5500 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 5300 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 5650 60  0001 L CNN
+F 3 "" H 9000 5450 50  0001 C CNN
+F 4 "PANASONIC" H 9200 5850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 5750 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 5500 50  0000 C CNN "Val"
+	1    9000 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 5250 8450 5250
+	8300 5450 8850 5450
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R19
+L zglue-gem1-adapter:R_0R_0402 R19
 U 1 1 5E57F379
-P 8600 5800
-F 0 "R19" H 8800 5850 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 5650 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6000 60  0001 L CNN
-F 3 "" H 8600 5800 50  0001 C CNN
-F 4 "PANASONIC" H 8800 6200 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 6100 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 5850 50  0000 C CNN "Val"
-	1    8600 5800
+P 9000 6000
+F 0 "R19" H 9200 6050 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 5850 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 6200 60  0001 L CNN
+F 3 "" H 9000 6000 50  0001 C CNN
+F 4 "PANASONIC" H 9200 6400 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 6300 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 6050 50  0000 C CNN "Val"
+	1    9000 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 5800 8450 5800
+	8300 6000 8850 6000
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R20
+L zglue-gem1-adapter:R_0R_0402 R20
 U 1 1 5E57F389
-P 8600 5950
-F 0 "R20" H 8800 6000 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 5800 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6150 60  0001 L CNN
-F 3 "" H 8600 5950 50  0001 C CNN
-F 4 "PANASONIC" H 8800 6350 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 6250 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 6000 50  0000 C CNN "Val"
-	1    8600 5950
+P 9000 6150
+F 0 "R20" H 9200 6200 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 6000 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 6350 60  0001 L CNN
+F 3 "" H 9000 6150 50  0001 C CNN
+F 4 "PANASONIC" H 9200 6550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 6450 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 6200 50  0000 C CNN "Val"
+	1    9000 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 5950 8450 5950
+	8300 6150 8850 6150
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R21
+L zglue-gem1-adapter:R_0R_0402 R21
 U 1 1 5E57F395
-P 8600 6100
-F 0 "R21" H 8800 6150 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 5950 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6300 60  0001 L CNN
-F 3 "" H 8600 6100 50  0001 C CNN
-F 4 "PANASONIC" H 8800 6500 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 6400 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 6150 50  0000 C CNN "Val"
-	1    8600 6100
+P 9000 6300
+F 0 "R21" H 9200 6350 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 6150 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 6500 60  0001 L CNN
+F 3 "" H 9000 6300 50  0001 C CNN
+F 4 "PANASONIC" H 9200 6700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 6600 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 6350 50  0000 C CNN "Val"
+	1    9000 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 6100 8450 6100
+	8300 6300 8850 6300
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R22
+L zglue-gem1-adapter:R_0R_0402 R22
 U 1 1 5E57F3A1
-P 8600 6250
-F 0 "R22" H 8800 6300 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 6100 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 6450 60  0001 L CNN
-F 3 "" H 8600 6250 50  0001 C CNN
-F 4 "PANASONIC" H 8800 6650 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 6550 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 6300 50  0000 C CNN "Val"
-	1    8600 6250
+P 9000 6450
+F 0 "R22" H 9200 6500 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 6300 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 6650 60  0001 L CNN
+F 3 "" H 9000 6450 50  0001 C CNN
+F 4 "PANASONIC" H 9200 6850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 6750 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 6500 50  0000 C CNN "Val"
+	1    9000 6450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 6250 8450 6250
-Text Notes 7850 4350 0    79   ~ 16
+	8300 6450 8850 6450
+Text Notes 8250 4300 0    79   ~ 16
 Debug resistors
-Wire Wire Line
-	11850 2650 11800 2650
-Connection ~ 11800 2650
-Wire Wire Line
-	11800 2650 11800 3450
-Wire Wire Line
-	11850 2750 10850 2750
-Text Label 10850 2250 0    50   ~ 0
-E_CTRL_SI
-Text Label 10850 2350 0    50   ~ 0
-E_CTRL_SO
-Text Label 10850 2450 0    50   ~ 0
-E_CTRL_SCK
-Text Label 10850 2550 0    50   ~ 0
-E_CTRL_SS
-Text Notes 11800 1400 0    50   ~ 0
-Mating - 556500488
-Wire Wire Line
-	11800 3450 11850 3450
-Connection ~ 11800 3450
-Wire Wire Line
-	11800 3450 11800 3550
-Text Label 9550 4800 2    50   ~ 0
+Text Label 9950 5000 2    50   ~ 0
 E_PROC_SI
-Text Label 9550 4950 2    50   ~ 0
+Text Label 9950 5150 2    50   ~ 0
 E_PROC_SO
-Text Label 9600 5100 2    50   ~ 0
+Text Label 10000 5300 2    50   ~ 0
 E_PROC_SCK
-Text Label 9550 5250 2    50   ~ 0
+Text Label 9950 5450 2    50   ~ 0
 E_PROC_SS
-Text Label 9100 5800 0    50   ~ 0
+Text Label 9500 6000 0    50   ~ 0
 E_CTRL_SI
-Text Label 9100 5950 0    50   ~ 0
+Text Label 9500 6150 0    50   ~ 0
 E_CTRL_SO
-Text Label 9100 6100 0    50   ~ 0
+Text Label 9500 6300 0    50   ~ 0
 E_CTRL_SCK
-Text Label 9100 6250 0    50   ~ 0
+Text Label 9500 6450 0    50   ~ 0
 E_CTRL_SS
 Wire Wire Line
-	8750 4800 9700 4800
+	9150 5000 10100 5000
 Wire Wire Line
-	8750 4950 9700 4950
+	9150 5150 10100 5150
 Wire Wire Line
-	8750 5100 9700 5100
+	9150 5300 10100 5300
 Wire Wire Line
-	8750 5250 9700 5250
+	9150 5450 10100 5450
 Wire Wire Line
-	8750 5800 9700 5800
+	9150 6000 10100 6000
 Wire Wire Line
-	8750 5950 9700 5950
+	9150 6150 10100 6150
 Wire Wire Line
-	8750 6100 9700 6100
+	9150 6300 10100 6300
 Wire Wire Line
-	8750 6250 9700 6250
+	9150 6450 10100 6450
 Text Label 1950 2450 0    50   ~ 0
 MIPI_SEL
-Text Notes 9400 7550 0    79   ~ 16
-USB pullup
-Text Label 9500 2350 0    50   ~ 0
-LED1_ISINK
-Text Label 9500 2450 0    50   ~ 0
-LED2_ISINK
-Text Label 9500 2550 0    50   ~ 0
-LED3_ISINK
-Text Notes 11350 2850 0    50   ~ 0
-Reserved
-Text Notes 11350 2950 0    50   ~ 0
-Reserved
-Text Notes 11350 3050 0    50   ~ 0
-Reserved
-Text Notes 11350 3150 0    50   ~ 0
-Reserved
-Text Notes 11350 3250 0    50   ~ 0
-Reserved
-Text Notes 11350 3350 0    50   ~ 0
-Reserved
-Text Notes 10850 7550 0    79   ~ 16
-CSI INT
 Text Notes 2400 4700 0    50   ~ 0
 NC
 Text Notes 2400 3700 0    50   ~ 0
@@ -1922,86 +1506,80 @@ NC
 Text Notes 2400 4800 0    50   ~ 0
 NC
 Wire Wire Line
-	10900 7950 11650 7950
-Text Label 11350 7950 0    50   ~ 0
+	12800 8300 13550 8300
+Text Label 13250 8300 0    50   ~ 0
 CSI_INT
-Text Label 11200 8250 0    50   ~ 0
+Text Label 13100 8600 0    50   ~ 0
 CSI_D1_IN_P
 $Comp
-L zglue-dragon-adapter:R_220R_0402 R24
+L zglue-gem1-adapter:R_220R_0402 R24
 U 1 1 5DA2E339
-P 10900 8100
-F 0 "R24" V 10855 8170 60  0000 L CNN
-F 1 "R_220R_0402" H 10900 7950 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 11100 8300 60  0001 L CNN
-F 3 "" H 10900 8100 50  0001 C CNN
-F 4 "TE_CONNECTIVITY_/_NEOHM" H 11100 8500 60  0001 L CNN "Manufacturer"
-F 5 "CRG0402J220R" H 11100 8400 60  0001 L CNN "MPN"
-F 6 "220R" V 10953 8170 50  0000 L CNN "Val"
-	1    10900 8100
+P 12800 8450
+F 0 "R24" V 12755 8520 60  0000 L CNN
+F 1 "R_220R_0402" H 12800 8300 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 13000 8650 60  0001 L CNN
+F 3 "" H 12800 8450 50  0001 C CNN
+F 4 "TE_CONNECTIVITY_/_NEOHM" H 13000 8850 60  0001 L CNN "Manufacturer"
+F 5 "CRG0402J220R" H 13000 8750 60  0001 L CNN "MPN"
+F 6 "220R" V 12853 8520 50  0000 L CNN "Val"
+	1    12800 8450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10900 8250 11650 8250
+	12800 8600 13550 8600
 NoConn ~ 2550 3700
 NoConn ~ 2550 4700
 NoConn ~ 2550 4800
 NoConn ~ 4400 6250
-NoConn ~ 11850 2850
-NoConn ~ 11850 2950
-NoConn ~ 11850 3050
-NoConn ~ 11850 3150
-NoConn ~ 11850 3250
-NoConn ~ 11850 3350
 NoConn ~ 2550 6150
 NoConn ~ 2550 6250
 NoConn ~ 2550 6350
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R25
+L zglue-gem1-adapter:R_0R_0402 R25
 U 1 1 5DC78E2D
-P 8600 4650
-F 0 "R25" H 8800 4700 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 4500 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 4850 60  0001 L CNN
-F 3 "" H 8600 4650 50  0001 C CNN
-F 4 "PANASONIC" H 8800 5050 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 4950 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 4700 50  0000 C CNN "Val"
-	1    8600 4650
+P 9000 4850
+F 0 "R25" H 9200 4900 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 4700 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 5050 60  0001 L CNN
+F 3 "" H 9000 4850 50  0001 C CNN
+F 4 "PANASONIC" H 9200 5250 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 5150 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 4900 50  0000 C CNN "Val"
+	1    9000 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 4650 7900 4650
+	8850 4850 8300 4850
 Wire Wire Line
-	8750 4650 9700 4650
-Text Label 7900 4650 0    50   ~ 0
+	9150 4850 10100 4850
+Text Label 8300 4850 0    50   ~ 0
 PROC_RST
-Text Label 9150 4650 0    50   ~ 0
+Text Label 9550 4850 0    50   ~ 0
 E_PROC_RST
 $Comp
-L zglue-dragon-adapter:R_0R_0402 R26
+L zglue-gem1-adapter:R_0R_0402 R26
 U 1 1 5DCC1CB8
-P 8600 5650
-F 0 "R26" H 8800 5700 60  0000 C CNN
-F 1 "R_0R_0402" H 8600 5500 60  0001 C CNN
-F 2 "zglue-dragon-adapter-footprints:0402-res" H 8800 5850 60  0001 L CNN
-F 3 "" H 8600 5650 50  0001 C CNN
-F 4 "PANASONIC" H 8800 6050 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8800 5950 60  0001 L CNN "MPN"
-F 6 "0R" H 8950 5700 50  0000 C CNN "Val"
-	1    8600 5650
+P 9000 5850
+F 0 "R26" H 9200 5900 60  0000 C CNN
+F 1 "R_0R_0402" H 9000 5700 60  0001 C CNN
+F 2 "zglue-dragon-adapter-footprints:0402-res" H 9200 6050 60  0001 L CNN
+F 3 "" H 9000 5850 50  0001 C CNN
+F 4 "PANASONIC" H 9200 6250 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9200 6150 60  0001 L CNN "MPN"
+F 6 "0R" H 9350 5900 50  0000 C CNN "Val"
+	1    9000 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 5650 7900 5650
+	8850 5850 8300 5850
 Wire Wire Line
-	8750 5650 9700 5650
-Text Label 9100 5650 0    50   ~ 0
+	9150 5850 10100 5850
+Text Label 9500 5850 0    50   ~ 0
 CTRL_RST_FLASH_SOC_CS
-Text Label 7900 5650 0    50   ~ 0
+Text Label 8300 5850 0    50   ~ 0
 CTRL_RST
 $Comp
-L zglue-dragon-adapter:TP_SMD1MM TP5
+L zglue-gem1-adapter:TP_SMD1MM TP5
 U 1 1 5DB1BFE4
 P 1850 3600
 F 0 "TP5" V 1850 3500 50  0000 C CNN
@@ -2011,24 +1589,435 @@ F 3 "" H 2050 3900 60  0001 L CNN
 	1    1850 3600
 	0    1    1    0   
 $EndComp
-Connection ~ 1450 8050
-Wire Wire Line
-	1450 8050 1200 8050
-Wire Wire Line
-	1800 8050 2500 8050
-Connection ~ 1450 8750
-Wire Wire Line
-	1450 8750 1200 8750
-Wire Wire Line
-	1800 8750 2500 8750
-Connection ~ 1450 9500
-Wire Wire Line
-	1450 9500 1200 9500
-Wire Wire Line
-	1800 9500 2500 9500
-Connection ~ 1450 10450
-Wire Wire Line
-	1450 10450 1200 10450
 Wire Wire Line
 	1800 10450 2800 10450
+Wire Wire Line
+	1800 8050 3050 8050
+Wire Wire Line
+	1200 8050 1500 8050
+Wire Wire Line
+	1800 8750 3050 8750
+Wire Wire Line
+	1200 8750 1500 8750
+Wire Wire Line
+	1200 10450 1500 10450
+Wire Wire Line
+	1800 9500 3050 9500
+Wire Wire Line
+	1200 9500 1500 9500
+Wire Notes Line
+	650  7000 16000 7000
+Wire Notes Line
+	7750 4000 16050 4000
+NoConn ~ 12200 3350
+NoConn ~ 12200 3250
+NoConn ~ 12200 3150
+NoConn ~ 12200 3050
+NoConn ~ 12200 2950
+NoConn ~ 12200 2850
+Text Notes 11700 3350 0    50   ~ 0
+Reserved
+Text Notes 11700 3250 0    50   ~ 0
+Reserved
+Text Notes 11700 3150 0    50   ~ 0
+Reserved
+Text Notes 11700 3050 0    50   ~ 0
+Reserved
+Text Notes 11700 2950 0    50   ~ 0
+Reserved
+Text Notes 11700 2850 0    50   ~ 0
+Reserved
+Text Label 9850 2550 0    50   ~ 0
+LED3_ISINK
+Text Label 9850 2450 0    50   ~ 0
+LED2_ISINK
+Text Label 9850 2350 0    50   ~ 0
+LED1_ISINK
+Wire Wire Line
+	12150 3450 12150 3550
+Connection ~ 12150 3450
+Wire Wire Line
+	12150 3450 12200 3450
+Text Notes 12150 1400 0    50   ~ 0
+Mating - 556500488
+Text Label 11200 2550 0    50   ~ 0
+E_CTRL_SS
+Text Label 11200 2450 0    50   ~ 0
+E_CTRL_SCK
+Text Label 11200 2350 0    50   ~ 0
+E_CTRL_SO
+Text Label 11200 2250 0    50   ~ 0
+E_CTRL_SI
+Wire Wire Line
+	12200 2750 11200 2750
+Wire Wire Line
+	12150 2650 12150 3450
+Connection ~ 12150 2650
+Wire Wire Line
+	12200 2650 12150 2650
+Wire Wire Line
+	12200 2550 11200 2550
+Wire Wire Line
+	12200 2450 11200 2450
+Wire Wire Line
+	12200 2350 11200 2350
+Wire Wire Line
+	12200 2250 11200 2250
+Wire Wire Line
+	12200 2150 11200 2150
+Wire Wire Line
+	12200 2050 12150 2050
+Wire Wire Line
+	12200 1950 11200 1950
+Wire Wire Line
+	12150 2050 12150 2650
+$Comp
+L zglue-gem1-adapter:543630489 J2
+U 1 1 5DD17377
+P 12300 1300
+F 0 "J2" H 12200 1450 50  0000 C CNN
+F 1 "543630489" H 12400 1350 50  0000 C CNN
+F 2 "zglue-dragon-adapter-footprints:543630489" H 12050 -1050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 12550 -1000 50  0001 C CNN
+F 4 "543630489" H 350 0   50  0001 C CNN "MPN"
+F 5 "Molex" H 350 0   50  0001 C CNN "Manufacturer"
+	1    12300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L zglue-gem1-adapter:GND #PWR022
+U 1 1 5E378B12
+P 12150 3550
+F 0 "#PWR022" H 12150 3300 50  0001 C CNN
+F 1 "GND" H 12155 3377 50  0000 C CNN
+F 2 "" H 12150 3550 50  0001 C CNN
+F 3 "" H 12150 3550 50  0001 C CNN
+	1    12150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 1850 11200 1850
+Wire Wire Line
+	12200 1750 11200 1750
+Wire Wire Line
+	12200 1650 11200 1650
+Wire Wire Line
+	12200 1550 11200 1550
+Wire Wire Line
+	12650 3450 13550 3450
+Wire Wire Line
+	12650 3350 13550 3350
+Wire Wire Line
+	12650 3250 13550 3250
+Wire Wire Line
+	12650 3150 13550 3150
+Wire Wire Line
+	12700 3050 12700 2750
+Connection ~ 12700 3050
+Wire Wire Line
+	12650 3050 12700 3050
+Wire Wire Line
+	12700 2750 12700 2450
+Connection ~ 12700 2750
+Wire Wire Line
+	12650 2750 12700 2750
+Wire Wire Line
+	12700 2450 12700 2150
+Connection ~ 12700 2450
+Wire Wire Line
+	12650 2450 12700 2450
+Wire Wire Line
+	12700 2150 12700 1850
+Connection ~ 12700 2150
+Wire Wire Line
+	12650 2150 12700 2150
+Wire Wire Line
+	12700 1850 12700 1550
+Connection ~ 12700 1850
+Wire Wire Line
+	12650 1850 12700 1850
+Wire Wire Line
+	12700 1550 12650 1550
+Wire Wire Line
+	12700 3550 12700 3050
+Wire Wire Line
+	9600 1850 10400 1850
+Wire Wire Line
+	9150 3450 8250 3450
+Wire Wire Line
+	9150 3350 8250 3350
+Wire Wire Line
+	9150 3250 8250 3250
+Wire Wire Line
+	9150 3150 8250 3150
+Wire Wire Line
+	13550 2950 12650 2950
+Wire Wire Line
+	13550 2850 12650 2850
+Wire Wire Line
+	13550 2650 12650 2650
+Wire Wire Line
+	13550 2550 12650 2550
+Wire Wire Line
+	13550 2350 12650 2350
+Wire Wire Line
+	13550 2250 12650 2250
+Wire Wire Line
+	13550 2050 12650 2050
+Wire Wire Line
+	13550 1950 12650 1950
+Wire Wire Line
+	13550 1750 12650 1750
+$Comp
+L zglue-gem1-adapter:GND #PWR023
+U 1 1 5E03411C
+P 12700 3550
+F 0 "#PWR023" H 12700 3300 50  0001 C CNN
+F 1 "GND" H 12705 3377 50  0000 C CNN
+F 2 "" H 12700 3550 50  0001 C CNN
+F 3 "" H 12700 3550 50  0001 C CNN
+	1    12700 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 1650 12650 1650
+Text Notes 8250 800  0    79   ~ 16
+Baseboard connectors
+Wire Wire Line
+	9600 3450 10400 3450
+Wire Wire Line
+	9600 3350 10400 3350
+Wire Wire Line
+	9600 3250 10400 3250
+Wire Wire Line
+	9600 3150 10400 3150
+Wire Wire Line
+	9600 3050 10400 3050
+Wire Wire Line
+	9600 2950 10400 2950
+Wire Wire Line
+	9600 2850 10400 2850
+Wire Wire Line
+	9600 2750 10400 2750
+Wire Wire Line
+	9650 2650 9650 3650
+Connection ~ 9650 2650
+Wire Wire Line
+	9600 2650 9650 2650
+Wire Wire Line
+	9600 2550 10400 2550
+Wire Wire Line
+	9600 2450 10400 2450
+Wire Wire Line
+	9600 1550 10400 1550
+Wire Wire Line
+	9600 2350 10400 2350
+Wire Wire Line
+	9600 2250 10400 2250
+Wire Wire Line
+	9600 2050 10400 2050
+Wire Wire Line
+	9600 1950 10400 1950
+Text Label 8250 3350 0    50   ~ 0
+VUSB
+Wire Wire Line
+	9600 1750 10400 1750
+Wire Wire Line
+	9600 1650 10400 1650
+Wire Wire Line
+	9650 2150 9650 2650
+Wire Wire Line
+	9600 2150 9650 2150
+Wire Wire Line
+	9100 3050 9100 3650
+Connection ~ 9100 3050
+Wire Wire Line
+	9150 3050 9100 3050
+Wire Wire Line
+	9150 2950 8250 2950
+Wire Wire Line
+	9150 2850 8250 2850
+Wire Wire Line
+	9100 2750 9100 3050
+Connection ~ 9100 2750
+Wire Wire Line
+	9150 2750 9100 2750
+Wire Wire Line
+	9150 2650 8250 2650
+Wire Wire Line
+	9150 2550 8250 2550
+Wire Wire Line
+	9100 2450 9100 2750
+Connection ~ 9100 2450
+Wire Wire Line
+	9150 2450 9100 2450
+Wire Wire Line
+	9150 2350 8250 2350
+Wire Wire Line
+	9150 2250 8250 2250
+Wire Wire Line
+	9100 2150 9100 2450
+Connection ~ 9100 2150
+Wire Wire Line
+	9150 2150 9100 2150
+Wire Wire Line
+	9150 2050 8250 2050
+Wire Wire Line
+	9150 1950 8250 1950
+Wire Wire Line
+	9100 1850 9100 2150
+Connection ~ 9100 1850
+Wire Wire Line
+	9150 1850 9100 1850
+Wire Wire Line
+	9150 1750 8250 1750
+Wire Wire Line
+	9150 1650 8250 1650
+$Comp
+L zglue-gem1-adapter:GND #PWR021
+U 1 1 5DD4C734
+P 9650 3650
+F 0 "#PWR021" H 9650 3400 50  0001 C CNN
+F 1 "GND" H 9655 3477 50  0000 C CNN
+F 2 "" H 9650 3650 50  0001 C CNN
+F 3 "" H 9650 3650 50  0001 C CNN
+	1    9650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L zglue-gem1-adapter:GND #PWR020
+U 1 1 5DD41DEC
+P 9100 3650
+F 0 "#PWR020" H 9100 3400 50  0001 C CNN
+F 1 "GND" H 9105 3477 50  0000 C CNN
+F 2 "" H 9100 3650 50  0001 C CNN
+F 3 "" H 9100 3650 50  0001 C CNN
+	1    9100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1550 9100 1850
+Wire Wire Line
+	9150 1550 9100 1550
+$Comp
+L zglue-gem1-adapter:543630489 J1
+U 1 1 5DD17041
+P 9250 1300
+F 0 "J1" H 9250 1450 50  0000 C CNN
+F 1 "543630489" H 9400 1350 50  0000 C CNN
+F 2 "zglue-dragon-adapter-footprints:543630489" H 9000 -1050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/543630489_sd.pdf" H 9500 -1000 50  0001 C CNN
+F 4 "543630489" H 350 0   50  0001 C CNN "MPN"
+F 5 "Molex" H 350 0   50  0001 C CNN "Manufacturer"
+	1    9250 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 9150 1400 0    50   ~ 0
+Mating - 556500488
+Text Label 9850 3150 0    50   ~ 0
+1V2_SYS
+Text Label 9850 3350 0    50   ~ 0
+2V5_SYS
+Text Label 9850 3250 0    50   ~ 0
+1V8_SYS
+Text Label 9850 3450 0    50   ~ 0
+3V3_SYS
+Text Label 8250 3450 0    50   ~ 0
+VUSB
+Text Label 9850 3050 0    50   ~ 0
+I2C_1_SDA
+Text Label 9850 2950 0    50   ~ 0
+I2C_1_SCL
+Text Label 9850 2850 0    50   ~ 0
+I2C_0_SDA
+Text Label 9850 2750 0    50   ~ 0
+I2C_0_SCL
+Text Label 8250 3150 0    50   ~ 0
+USB_D_P
+Text Label 8250 3250 0    50   ~ 0
+USB_D_N
+Text Label 11200 2750 0    50   ~ 0
+DONE
+Text Label 13000 3150 0    50   ~ 0
+CTRL_OUT
+Text Label 9850 1950 0    50   ~ 0
+DBG_TX
+Text Label 9850 2050 0    50   ~ 0
+DBG_RX
+Text Label 11200 2150 0    50   ~ 0
+CTRL_RST_FLASH_SOC_CS
+Text Label 11200 1950 0    50   ~ 0
+E_PROC_SS
+Text Label 11200 1850 0    50   ~ 0
+E_PROC_SCK
+Text Label 11200 1750 0    50   ~ 0
+E_PROC_SO
+Text Label 11200 1650 0    50   ~ 0
+E_PROC_SI
+Text Label 11200 1550 0    50   ~ 0
+E_PROC_RST
+Text Label 13000 3450 0    50   ~ 0
+PROC_OUT_2
+Text Label 13000 3350 0    50   ~ 0
+PROC_OUT_1
+Text Label 13000 3250 0    50   ~ 0
+PROC_OUT_0
+Text Label 9850 2250 0    50   ~ 0
+PWR_BTN
+Text Label 9850 1850 0    50   ~ 0
+TCK
+Text Label 9850 1750 0    50   ~ 0
+TMS
+Text Label 9850 1650 0    50   ~ 0
+TDO
+Text Label 9850 1550 0    50   ~ 0
+TDI
+Text Label 8250 2950 0    50   ~ 0
+CSI_D4_IN_N
+Text Label 8250 2850 0    50   ~ 0
+CSI_D4_IN_P
+Text Label 8250 2650 0    50   ~ 0
+CSI_D3_IN_N
+Text Label 8250 2550 0    50   ~ 0
+CSI_D3_IN_P
+Text Label 8250 2350 0    50   ~ 0
+CSI_D2_IN_N
+Text Label 8250 2250 0    50   ~ 0
+CSI_D2_IN_P
+Text Label 8250 2050 0    50   ~ 0
+CSI_D1_IN_N
+Text Label 8250 1950 0    50   ~ 0
+CSI_D1_IN_P
+Text Label 8250 1750 0    50   ~ 0
+CSI_CLK_IN_N
+Text Label 8250 1650 0    50   ~ 0
+CSI_CLK_IN_P
+Text Label 13000 2950 0    50   ~ 0
+CSI_D4_OUT_N
+Text Label 13000 2850 0    50   ~ 0
+CSI_D4_OUT_P
+Text Label 13000 2650 0    50   ~ 0
+CSI_D3_OUT_N
+Text Label 13000 2550 0    50   ~ 0
+CSI_D3_OUT_P
+Text Label 13000 2350 0    50   ~ 0
+CSI_D2_OUT_N
+Text Label 13000 2250 0    50   ~ 0
+CSI_D2_OUT_P
+Text Label 13000 2050 0    50   ~ 0
+CSI_D1_OUT_N
+Text Label 13000 1950 0    50   ~ 0
+CSI_D1_OUT_P
+Text Label 13000 1750 0    50   ~ 0
+CSI_CLK_OUT_N
+Text Label 13000 1650 0    50   ~ 0
+CSI_CLK_OUT_P
+Wire Notes Line
+	7750 650  7750 11200
+Wire Notes Line
+	7750 9500 15950 9500
+Wire Notes Line
+	15950 9500 15950 9550
+Wire Notes Line
+	15950 9550 16050 9550
 $EndSCHEMATC

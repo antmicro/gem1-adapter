@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name zglue-dragon-adapter-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/zglue-dragon-adapter-footprints)(options "")(descr ""))
+  (lib (name zglue-gem1-adapter-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/zglue-gem1-adapter-footprints)(options "")(descr ""))
 )

@@ -1,0 +1,8 @@
+### Module positions - created on Wed 19 Feb 2020 21:48:27 CET ###
+### Printed by Pcbnew version kicad 5.1.5+dfsg1-2~bpo10+1
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val        Package                PosX       PosY       Rot  Side
+J1        543630489  543630489           -0.1476    -0.3937  180.0000  bottom
+J2        543630489  543630489           -0.8366    -0.3937  180.0000  bottom
+## End
