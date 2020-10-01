@@ -3,7 +3,7 @@ GEM1 Adapter
 
 Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/zglue-gem1-adapter.png
+.. figure:: img/zglue-gem1-adapter.jpg
 
 This repository contains PCB design files for an adapter board accommodating the GEM1 chip created jointly by `zGlue <http://zglue.com>`_ and `Antmicro <http://www.antmicro.com>`_.
 The GEM1 design utilizes the zGlue ZiP chiplet technology and has been prepared using zGlue's `ChipBuilder <http://chipbuilder.zglue.com/>`_ tool.
