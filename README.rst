@@ -3,6 +3,9 @@ GEM1 Adapter
 
 Copyright (c) 2020 `Antmicro <https://www.antmicro.com>`_
 
+.. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
+   :target: https://opensource.antmicro.com/projects/gem1-adapter
+
 .. figure:: img/zglue-gem1-adapter.jpg
 
 This repository contains PCB design files for an adapter board accommodating the GEM1 chip created jointly by `zGlue <http://zglue.com>`_ and `Antmicro <http://www.antmicro.com>`_.
